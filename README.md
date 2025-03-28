@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# 知识图谱项目
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+这是一个基于React和Cytoscape.js的知识图谱可视化项目，用于展示和管理知识点和能力点之间的关系。
 
-## Available Scripts
+## 版本历史
 
-In the project directory, you can run:
+### v1.0.0 (当前版本)
+- 初始版本
+- 实现了基本的知识图谱和能力图谱的可视化
+- 支持节点的添加、删除和编辑
+- 支持节点的展开/收起功能
+- 实现了节点的拖拽功能
+- 添加了节点提示框功能
+- 支持节点的自动布局
 
-### `npm start`
+## 功能特性
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 双图谱系统：支持知识图谱(DS)和能力图谱(AB)
+- 节点管理：
+  - 添加新节点（支持自动ID生成和自定义ID）
+  - 删除现有节点
+  - 编辑节点属性
+- 可视化功能：
+  - 节点展开/收起
+  - 节点拖拽
+  - 自动布局
+  - 节点提示框
+- 交互功能：
+  - 点击节点展开/收起
+  - 拖拽节点调整位置
+  - 双击画布重置视图
+  - 鼠标悬停显示节点详情
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 技术栈
 
-### `npm test`
+- React
+- TypeScript
+- Cytoscape.js
+- cytoscape-cose-bilkent (布局算法)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 项目结构
 
-### `npm run build`
+```
+src/
+  ├── components/
+  │   └── SafeNodeObject.tsx    # 节点渲染组件
+  ├── utils/
+  │   └── excelReader.ts        # Excel文件读取工具
+  └── Graph.tsx                 # 主图谱组件
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 开发指南
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. 安装依赖：
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. 启动开发服务器：
+```bash
+npm start
+```
 
-### `npm run eject`
+3. 构建生产版本：
+```bash
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 版本控制
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+项目使用Git进行版本控制，每个版本都会记录在此README文件中。主要版本号变更代表重大更新，次要版本号变更代表功能更新，修订号变更代表bug修复和小改动。
