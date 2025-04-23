@@ -1,0 +1,42 @@
+[
+  { "knowledge": "DS0101", "ability": "AB010201" },
+  { "knowledge": "DS0101", "ability": "AB030402" },
+  
+  { "knowledge": "DS0102", "ability": "AB020102" },
+  { "knowledge": "DS0102", "ability": "AB030101" },
+  
+  { "knowledge": "DS0103", "ability": "AB010101" },
+  { "knowledge": "DS0103", "ability": "AB030202" },
+  
+  { "knowledge": "DS0104", "ability": "AB020103" },
+  { "knowledge": "DS0104", "ability": "AB052" },
+  
+  { "knowledge": "DS010201", "ability": "AB010102" },
+  { "knowledge": "DS010201", "ability": "AB062" },
+  
+  { "knowledge": "DS010202", "ability": "AB020301" },
+  { "knowledge": "DS010202", "ability": "AB010203" },
+  
+  { "knowledge": "DS010203", "ability": "AB010202" },
+  { "knowledge": "DS010203", "ability": "AB030302" },
+  
+  { "knowledge": "DS010204", "ability": "AB010204" },
+  
+  { "knowledge": "DS010205", "ability": "AB020301" },
+  { "knowledge": "DS010205", "ability": "AB020103" },
+  
+  { "knowledge": "DS010206", "ability": "AB010102" },
+  { "knowledge": "DS010206", "ability": "AB063" },
+  
+  { "knowledge": "DS010207", "ability": "AB026" },
+  { "knowledge": "DS010207", "ability": "AB020102" },
+  
+  { "knowledge": "DS010301", "ability": "AB048" },
+  { "knowledge": "DS010301", "ability": "AB010201" },
+  
+  { "knowledge": "DS010401", "ability": "AB038" },
+  { "knowledge": "DS010401", "ability": "AB030402" },
+  
+  { "knowledge": "DS010402", "ability": "AB020304" },
+  { "knowledge": "DS010402", "ability": "AB020209" }
+] 

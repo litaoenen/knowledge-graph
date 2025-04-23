@@ -1,0 +1,6170 @@
+{
+  "nodes": [
+    {
+      "id": "DS",
+      "name": "数据结构",
+      "type": "课程",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS01",
+      "name": "绪论",
+      "type": "章节",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.7,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS0101",
+      "name": "数据结构的研究内容",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.8,
+        "description": "合理地组织数据、高效地处理数据"
+      }
+    },
+    {
+      "id": "DS0102",
+      "name": "基本概念和术语",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.7,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS0103",
+      "name": "抽象数据类型的表示与实现",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS0104",
+      "name": "算法和算法分析",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS010201",
+      "name": "数据",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.6,
+        "description": "包括定义、数据型数据、非数据型数据"
+      }
+    },
+    {
+      "id": "DS010202",
+      "name": "数据元素",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.6,
+        "description": "也称为结点，是数据集合中的一个实体，是数据结构中讨论的基本单位。"
+      }
+    },
+    {
+      "id": "DS010203",
+      "name": "数据项",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.6,
+        "description": "一般情况下，一个数据元素中含有若干个字段，也称为数据项。数据元素是数据项的集合。"
+      }
+    },
+    {
+      "id": "DS010204",
+      "name": "数据对象",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.6,
+        "description": "性质相同的数据元素的集合，是数据的一个子集。"
+      }
+    },
+    {
+      "id": "DS010205",
+      "name": "数据结构",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.8,
+        "description": "包括定义、逻辑结构、存储结构和形式定义"
+      }
+    },
+    {
+      "id": "DS010206",
+      "name": "数据类型",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "指程序设计语言中各变量可取的数据类型。数据类型是高级程序设计语言中的一个基本概念，它和数据结构的概念密切相关。数据类型是在程序设计中已经实现了的数据结构。数据类型反映了程序设计语言的数据描述和处理能力"
+      }
+    },
+    {
+      "id": "DS010207",
+      "name": "抽象数据类型",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "指一个数学模型以及定义在此数学模型上的一组操作，两个重要特征：数据抽象、数据封装。和数据结构的形式定义相对应，ADT可用一个三元组表示：ADT_Data_Structure = (D,S,P)。其中: D是数据对象，S是D上的关系集，P是对D的基本操作集。ADT抽象数据类型名{\n         数据对象：<数据对象的定义>\n         数据关系：<数据关系的定义>\n         基本操作：<基本操作的定义>\n} ADT抽象数据类型名"
+      }
+    },
+    {
+      "id": "DS010301",
+      "name": "抽象数据类型的表示与实现",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS010401",
+      "name": "算法的定义",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "解决某个特定问题的一种方法或一个过程"
+      }
+    },
+    {
+      "id": "DS010402",
+      "name": "设计算法的基本过程",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "通过对问题进行详细地分析，抽象出相应的数学模型。确定使用的数据结构，并在此基础上设计对此数据结构实施各种操作的算法。选用某种语言将算法转换成程序。调试并运行这些程序。"
+      }
+    },
+    {
+      "id": "DS010403",
+      "name": "算法的5个特性",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "有穷性、确定性、可行性、输入、输出"
+      }
+    },
+    {
+      "id": "DS010404",
+      "name": "算法的优劣标准",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "正确性、可读性、健壮性（鲁棒性）、衡量算法效率的两个方法、算法的时间复杂度、算法的空间复杂度"
+      }
+    },
+    {
+      "id": "DS01020501",
+      "name": "数据结构定义",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "以数据项为元素的一种结构。数据结构的组成是由各数据项之间的关系和用来存储、恢复这些数据项的存取函数来确定的。"
+      }
+    },
+    {
+      "id": "DS01020502",
+      "name": "逻辑结构",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "数据元素和数据元素之间的逻辑关系，两要素：数据元素、数据元素之间的关系，四种逻辑结构：线性结构（一对一）、树结构（一对多）、图结构或网状结构（多对多）、集合结构。"
+      }
+    },
+    {
+      "id": "DS01020503",
+      "name": "存储结构（物理结构）",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "数据对象在计算机中的存储表示，包括顺序存储结构、链式存储结构、索引存储结构、散列存储结构。"
+      }
+    },
+    {
+      "id": "DS01020504",
+      "name": "数据结构的形式定义",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "数据结构是一个二元组：Data_Structure = (D,S)。其中: D是数据元素的有限集，S是D上关系的有限集。严格地讲，以上定义仅是数据的逻辑结构的定义"
+      }
+    },
+    {
+      "id": "DS01030101",
+      "name": "抽象数据类型复数的定义",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "ADT Complex{\n         数据对象：D = {e1,e2 | e1,e2 ∈RealSet }\n         数据关系：R1 = {<e1,e2> | e1是复数的实数部分，\n                                                      | e2是复数的虚数部分}\n         基本操作：\n                  InitComplex( &Z,v1,v2 )\n                      操作结果：构造复数Z，其实部和虚部分别被赋以参数v1和v2的值。\n                  DestroyComplex( &Z )\n                      操作结果：复数Z被销毁。\n                  GetReal( Z, &RealPart)\n                      初始条件：复数已存在。\n                      操作结果：用RealPart返回复数Z的实部值。\n                  GetImag( Z, &ImagePart)\n                      初始条件：复数已存在。\n                      操作结果：用ImagePart返回复数Z的虚部值。\n                  Add( z1,z2,&sum)\n                      初始条件：z1,z2是复数。\n                      操作结果：用sum返回两个复数z1,z2的和值。\n} ADT Complex"
+      }
+    },
+    {
+      "id": "DS01030102",
+      "name": "数据对象和数据关系的定义用伪码描述",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "基本操作名 (参数表)\n         初始条件：<初始条件描述>\n         操作结果：<操作结果描述>"
+      }
+    },
+    {
+      "id": "DS01040401",
+      "name": "正确性",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "要求算法能够正确地执行预先规定的功能，并达到所期望的性能要求。准确性理解的四个层次：第一层：程序中不含语法错误。第二层：程序对于几组输入数据能够得出满足要求的结果。第三层：程序对于精心选择的、典型、苛刻且带有刁难性的几组输入数据能够得出满足要求的结果。第四层：程序对于一切合法的输入数据都能得出满足要求的结果。通常以第三层的正确性作为衡量一个算法是否合格的标准。"
+      }
+    },
+    {
+      "id": "DS01040402",
+      "name": "可读性",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.6,
+        "description": "算法主要是为了人的阅读与交流，其次才是为计算机执行。因此算法应该易于人的理解；另一方面，晦涩难读的程序易于隐藏较多错误而难以调试"
+      }
+    },
+    {
+      "id": "DS01040403",
+      "name": "健壮性（鲁棒性）",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "当输入的数据非法时，算法应当恰当地做出反应或进行相应处理，而不是产生莫名其妙的输出结果。并且，处理出错的方法不应是中断程序的执行，而应是返回一个表示错误或错误性质的值，以便在更高的抽象层次上进行处理"
+      }
+    },
+    {
+      "id": "DS01040404",
+      "name": "高效性",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "时间高效：算法设计合理，执行效率高，可以用时间复杂度来度量。空间高效：算法占用存储容量合理，可以用空间复杂度来度量。"
+      }
+    },
+    {
+      "id": "DS01040405",
+      "name": "衡量算法效率的两个方法",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "事后统计法、事前分析估算法"
+      }
+    },
+    {
+      "id": "DS01040406",
+      "name": "算法的时间复杂度",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": "算法中重复执行次数和算法的执行时间成正比的语句，它对算法运行时间的影响最大。一般情况下，算法中基本语句重复执行的次数是以问题规模n为自变量的函数T(n)=O(f(n))。随着问题规模n的增大，算法执行时间的增长率和f(n)的增长率相同，称作算法的渐进时间复杂度，简称时间复杂度。"
+      }
+    },
+    {
+      "id": "DS01040407",
+      "name": "算法的空间复杂度",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": "类似于算法的时间复杂度，算法的存储空间的需求可以设计成一个以问题的规模n为自变量的函数S(n)=O(g(n))，这个函数表示随问题规模n的增大，算法运行所需存储量的增长率和函数g(n)的增长率相同。称函数S(n)为算法的空间复杂度。"
+      }
+    },
+    {
+      "id": "DS0104040501",
+      "name": "事后统计法",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "需要先将算法实现，然后测算其时间和空间开销。缺陷1：必须执行程序。缺陷2：其他因素掩盖算法本身的优劣。"
+      }
+    },
+    {
+      "id": "DS0104040502",
+      "name": "事前分析估算法",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "在计算机程序编制前，依据统计方法对算法进行估算 。和算法执行时间相关的因素：算法选用的策略、问题的规模、编写程序的语言、编译程序产生的机器代码的质量、计算机执行指令的速度。"
+      }
+    },
+    {
+      "id": "DS0104040601",
+      "name": "问题规模和语句频度",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "问题规模:算法求解问题输入量的多少，是问题大小的本质表示，一般用整数n表示,问题规模n对不同的问题含义不同。n越大算法的执行时间越长。语法频度：一条语句的重复执行次数，语句的执行时间为该条语句的语句频度和执行一次所需时间的乘积。"
+      }
+    },
+    {
+      "id": "DS0104040602",
+      "name": "大O记法",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "O表示量级(order)，用来描述增长率的上限。表示随数据量n的增大，算法执行时间函数T(n)的增长率和函数f(n)的增长率相同，并且T(n)的增长至多趋向于函数f(n)的增长。"
+      }
+    },
+    {
+      "id": "DS0104040603",
+      "name": "最好、最坏和平均时间复杂度",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "最好时间复杂度、最坏时间复杂度、平均时间复杂度，除特别声明外，时间复杂度均指最坏情况下的时间复杂度。"
+      }
+    },
+    {
+      "id": "DS0104040701",
+      "name": "空间复杂度算法的存储量",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "输入数据所占空间、程序本身所占空间、辅助变量所占空间，辅助空间就是除算法代码本身和输入输出数据所占据的空间外，算法临时开辟的存储空间单元。"
+      }
+    },
+    {
+      "id": "DS0104040702",
+      "name": "空间复杂度分析推导准则",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "若输入数据所空间只取决于问题本身，和算法无关，则只需要分析除输入和程序之外的额外空间。若所需额外空间相对于输入数据量来说是常数，则称此算法为原地工作。若所需存储量依赖于特定的输入，除特别指明外，通常按最坏的情况考虑"
+      }
+    },
+    {
+      "id": "DS010404060201",
+      "name": "时间复杂度分析的基本方法",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": "找出所有语句中语句频度最大的那条语句作为基本语句，计算基本语句的频度得到问题规模n的某个函数f(n)，取其数量级用符号“O”表示即可。"
+      }
+    },
+    {
+      "id": "DS010404060202",
+      "name": "时间复杂度分析推导准则",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": "用常数1取代运行时间中的所有加法常数。在修改后的运行函数中，只保留最高阶项。如果最高阶项存在且不是1，则忽略与这个项相乘的常数。"
+      }
+    },
+    {
+      "id": "DS010404060203",
+      "name": "常量阶",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.6,
+        "description": "T(n)=O(1)"
+      }
+    },
+    {
+      "id": "DS010404060204",
+      "name": "线性阶",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "T(n)=O(n)"
+      }
+    },
+    {
+      "id": "DS010404060205",
+      "name": "平方阶",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "T(n)=O(n2)"
+      }
+    },
+    {
+      "id": "DS010404060206",
+      "name": "立方阶",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": "T(n)=O(n3)"
+      }
+    },
+    {
+      "id": "DS010404060207",
+      "name": "对数阶",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "T(n)=O(log2n)"
+      }
+    },
+    {
+      "id": "DS02",
+      "name": "线性表",
+      "type": "章节",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.9,
+        "description": "线性表是数据结构中的一种逻辑结构，表示元素之间具有一对一的线性关系"
+      }
+    },
+    {
+      "id": "DS0201",
+      "name": "线性表的定义",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.8,
+        "description": "线性表是由n个元素组成的有限序列"
+      }
+    },
+    {
+      "id": "DS0202",
+      "name": "线性表的逻辑结构",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.7,
+        "description": "线性表中元素之间是线性关系，每个元素（除第一个和最后一个）有且只有一个前驱和后继"
+      }
+    },
+    {
+      "id": "DS0203",
+      "name": "线性表的存储结构",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.8,
+        "description": "线性表的存储方式，包括顺序存储和链式存储"
+      }
+    },
+    {
+      "id": "DS020301",
+      "name": "顺序表",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "使用数组实现的线性表，元素在内存中连续存储"
+      }
+    },
+    {
+      "id": "DS02030101",
+      "name": "顺序表的插入操作",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.6,
+        "description": "在顺序表中指定位置插入元素，需要移动元素"
+      }
+    },
+    {
+      "id": "DS02030102",
+      "name": "顺序表的删除操作",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.6,
+        "description": "在顺序表中删除指定位置的元素，需要移动元素"
+      }
+    },
+    {
+      "id": "DS02030103",
+      "name": "顺序表的查找操作",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.5,
+        "description": "在顺序表中查找特定元素的位置"
+      }
+    },
+    {
+      "id": "DS020302",
+      "name": "链表",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "使用节点组成的链表，元素在内存中不连续存储"
+      }
+    },
+    {
+      "id": "DS02030201",
+      "name": "单链表",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.7,
+        "description": "每个节点包含数据域和指向下一个节点的指针"
+      }
+    },
+    {
+      "id": "DS0203020101",
+      "name": "单链表的插入操作",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.6,
+        "description": "在单链表中指定位置插入新节点"
+      }
+    },
+    {
+      "id": "DS0203020102",
+      "name": "单链表的删除操作",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.6,
+        "description": "在单链表中删除指定位置的节点"
+      }
+    },
+    {
+      "id": "DS0203020103",
+      "name": "单链表的查找操作",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.5,
+        "description": "在单链表中查找特定元素的位置"
+      }
+    },
+    {
+      "id": "DS02030202",
+      "name": "循环链表",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "链表的头节点的指针域指向尾节点，形成环状结构"
+      }
+    },
+    {
+      "id": "DS0203020201",
+      "name": "循环链表的插入操作",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.5,
+        "description": "在循环链表中插入新节点"
+      }
+    },
+    {
+      "id": "DS0203020202",
+      "name": "循环链表的删除操作",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.5,
+        "description": "在循环链表中删除节点"
+      }
+    },
+    {
+      "id": "DS02030203",
+      "name": "双向链表",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.7,
+        "description": "每个节点包含数据域、指向前驱节点和后继节点的指针"
+      }
+    },
+    {
+      "id": "DS0203020301",
+      "name": "双向链表的插入操作",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.6,
+        "description": "在双向链表中插入新节点"
+      }
+    },
+    {
+      "id": "DS0203020302",
+      "name": "双向链表的删除操作",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.6,
+        "description": "在双向链表中删除节点"
+      }
+    },
+    {
+      "id": "DS0203020303",
+      "name": "双向链表的查找操作",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.5,
+        "description": "在双向链表中查找特定元素的位置"
+      }
+    },
+    {
+      "id": "DS0204",
+      "name": "线性表的操作",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "线性表的基本操作，包括插入、删除、查找等"
+      }
+    },
+    {
+      "id": "DS020401",
+      "name": "插入操作",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "在线性表中指定位置插入新元素"
+      }
+    },
+    {
+      "id": "DS020402",
+      "name": "删除操作",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "删除线性表中指定位置的元素"
+      }
+    },
+    {
+      "id": "DS020403",
+      "name": "查找操作",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.6,
+        "description": "查找线性表中特定元素的位置"
+      }
+    },
+    {
+      "id": "DS0205",
+      "name": "线性表的应用",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "线性表在实际问题中的应用"
+      }
+    },
+    {
+      "id": "DS020501",
+      "name": "多项式计算",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "使用线性表存储多项式的项，进行多项式加法等运算"
+      }
+    },
+    {
+      "id": "DS020502",
+      "name": "稀疏矩阵存储",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.7,
+        "description": "使用线性表存储稀疏矩阵的非零元素"
+      }
+    },
+    {
+      "id": "DS0206",
+      "name": "线性表的复杂度分析",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "分析线性表操作的时间复杂度和空间复杂度"
+      }
+    },
+    {
+      "id": "DS020601",
+      "name": "顺序表的复杂度",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "顺序表插入和删除操作的时间复杂度为O(n)，查找为O(1)"
+      }
+    },
+    {
+      "id": "DS020602",
+      "name": "链表的复杂度",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "链表插入和删除操作的时间复杂度为O(1)，查找为O(n)"
+      }
+    },
+    {
+      "id": "DS0207",
+      "name": "线性表的比较",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "比较顺序表和链表的优缺点"
+      }
+    },
+    {
+      "id": "DS020701",
+      "name": "顺序表的优点",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.5,
+        "description": "访问元素速度快，适合频繁查找"
+      }
+    },
+    {
+      "id": "DS020702",
+      "name": "顺序表的缺点",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.5,
+        "description": "插入和删除操作需要移动大量元素"
+      }
+    },
+    {
+      "id": "DS020703",
+      "name": "链表的优点",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.5,
+        "description": "插入和删除操作不需要移动元素，只需改变指针"
+      }
+    },
+    {
+      "id": "DS020704",
+      "name": "链表的缺点",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.5,
+        "description": "访问元素需要从头遍历，速度较慢"
+      }
+    },
+    {
+      "id": "DS0208",
+      "name": "线性表的变体",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "线性表的一些变体结构"
+      }
+    },
+    {
+      "id": "DS020801",
+      "name": "带头节点的链表",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "在链表的头部添加一个特殊的头节点"
+      }
+    },
+    {
+      "id": "DS020802",
+      "name": "双向循环链表",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.6,
+        "description": "结合了双向链表和循环链表的特点"
+      }
+    },
+    {
+      "id": "DS0209",
+      "name": "线性表的实现",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "线性表在编程语言中的实现方式"
+      }
+    },
+    {
+      "id": "DS020901",
+      "name": "C语言中的线性表实现",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.7,
+        "description": "使用C语言实现线性表的基本操作"
+      }
+    },
+    {
+      "id": "DS020902",
+      "name": "Python中的线性表实现",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.7,
+        "description": "使用Python实现线性表的基本操作"
+      }
+    },
+    {
+      "id": "DS0210",
+      "name": "线性表的扩展操作",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "除了基本操作之外的一些扩展操作"
+      }
+    },
+    {
+      "id": "DS021001",
+      "name": "合并两个有序线性表",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.6,
+        "description": "将两个有序线性表合并为一个有序线性表"
+      }
+    },
+    {
+      "id": "DS021002",
+      "name": "线性表的逆置",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.5,
+        "description": "将线性表中的元素顺序反转"
+      }
+    },
+    {
+      "id": "DS021003",
+      "name": "线性表的去重",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "去除线性表中的重复元素"
+      }
+    },
+    {
+      "id": "DS0211",
+      "name": "线性表的优化",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "对线性表的存储和操作进行优化的方法"
+      }
+    },
+    {
+      "id": "DS021101",
+      "name": "存储优化",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "如压缩存储、减少内存占用等优化方法"
+      }
+    },
+    {
+      "id": "DS021102",
+      "name": "操作优化",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "如改进算法逻辑、减少不必要的操作等优化方法"
+      }
+    },
+    {
+      "id": "DS03",
+      "name": "栈与队列",
+      "type": "章节",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS0301",
+      "name": "栈",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS0302",
+      "name": "队列",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS030101",
+      "name": "栈的定义与特点",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.7,
+        "description": "限制在表一端进行插入和删除操作的线性表，有后进先出 (LIFO)的特点"
+      }
+    },
+    {
+      "id": "DS030102",
+      "name": "栈的类型定义",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.6,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS030103",
+      "name": "栈的分类与实现",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS030104",
+      "name": "栈的应用",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS030201",
+      "name": "队列的定义与特点",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.7,
+        "description": "队列是受限的线性表，只允许在一端进行插入，另外一端进行删除，有先进先出的特点"
+      }
+    },
+    {
+      "id": "DS030202",
+      "name": "队列的类型定义",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.6,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS030203",
+      "name": "队列的分类与实现",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS030204",
+      "name": "队列的应用",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS03010201",
+      "name": "栈的ADT定义",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "ADT Stack {   数据对象：D = {ai | ai∈Elemset, i = 1,2,…,n, n≥0 }      数据关系：R1 = { < ai-1, ai> | ai-1, ai∈D, i = 2,…,n }      基本操作：      InitStack(&S)         操作结果：构造一个空栈S。      DestroyStack(&S)         初始条件：栈S已存在。         操作结果：栈S被销毁。      ClearStack(&S)         初始条件：栈S已存在。         操作结果：栈S清为空栈。      StackEmpty(S)         初始条件：栈S已存在。         操作结果：若栈S为空栈，则返回TRUE，否则返回FALSE。StackLength(S)         初始条件：栈S已存在。         操作结果：返回栈S中元素个数，即栈的长度。     GetTop(S, &e)         初始条件：栈S已存在且非空。         操作结果：用e返回栈S的栈顶元素。      Push(&S, e)         初始条件：栈S已存在。         操作结果：插入元素e为新的栈顶元素。      Pop(&S, &e)         初始条件：栈S已存在且非空。         操作结果：删除S的栈顶元素，并用e返回其值。      StackTraverse(S, visit())          初始条件：栈S已存在且非空，visit()为元素的访问函数。     操作结果：从栈底到栈顶依次对S的每个元素调用函数visit()，               一旦visit()失败，则操作失败。} ADT Stack"
+      }
+    },
+    {
+      "id": "DS03010202",
+      "name": "栈的常见基本操作",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.9,
+        "description": " 初始化\n  InitStack(&S)         操作结果：构造一个空栈S。\n 求栈的长度\n  StackLength(S)         初始条件：栈S已存在。         操作结果：返回栈S中元素个数，即栈的长度。\n 得到栈顶\n  GetTop(S, &e)         初始条件：栈S已存在且非空。         操作结果：用e返回栈S的栈顶元素。\n 入栈\n  Push(&S, e)         初始条件：栈S已存在。         操作结果：插入元素e为新的栈顶元素。\n 出栈\n  Pop(&S, &e)         初始条件：栈S已存在且非空。         操作结果：删除S的栈顶元素，并用e返回其值。\n   子主题"
+      }
+    },
+    {
+      "id": "DS03010301",
+      "name": "顺序栈",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.9,
+        "description": "\n 定义\n  用一组连续的存储单元存放，从栈底到栈顶\n 操作\n  初始化\n  判断空\n  压栈\n  出栈\n  读栈顶元素\n  栈长度\n   s.top+1\n 评价\n  操作复杂度o(1)"
+      }
+    },
+    {
+      "id": "DS03010302",
+      "name": "链栈",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.9,
+        "description": "\n 定义\n  采用链式存储\n 存储类型描述\n 操作\n  与单链表相同"
+      }
+    },
+    {
+      "id": "DS03010303",
+      "name": "共享栈",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.5,
+        "description": "\n 概念\n  为了增加内存空间的利用率和减少溢出的可能性，\n由两个栈共享一片连续的内存空间【0….m】时，\n应将两栈的栈底分别设于内存空间的两端，\n这样，当两个栈的栈顶在栈空间的某一位置相遇或两栈顶指针相邻（即值之差的绝对值为1）时，\n才会上溢。当一个栈顶指针为0，另一个栈顶指针m+1时为两栈均空。\n 操作\n  判断空\n   空\n    top0=-1时，0号栈空\ntop1 = MaxSize时，1号栈空\n   栈满\n    两栈相邻：top1-top0==1（top1>top0）\n两栈顶指针值相减的绝对值为1\n\n  压栈\n   当0号栈压栈时，top0先+1，再赋值，1号栈压栈则top-1，再赋值\n  出栈\n   当0号栈出栈时，先赋值，top0-1，1号栈出栈先赋值，再top1+1\n 评价\n  操作复杂度o(1)\n  优点\n   多个栈共享一个顺序存储空间，充分利用了存储空间，\n只有在整个存储空间都用完时才能产生溢出，\n\n  缺点\n   其缺点是当一个栈满时要向左、右栈查询有无空闲单元。\n如果有，则要移动元素和修改相关的栈底和栈顶指针。\n当接近栈满时，查询空闲单元、移动元素和修改栈底栈顶指针的操作频繁，计算复杂并且耗费时间。 "
+      }
+    },
+    {
+      "id": "DS03020201",
+      "name": "队列的ADT类型定义",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "ADT Queue {  数据对象：D＝{ ai| ai∈ElemSet, i=1,2,...,n, n≥0}  数据关系：R1＝{ < ai-1 ,ai > | ai-1 ,ai ∈D, i=2,...,n}       约定其中a1 端为队列头，an 端为队列尾。基本操作：   InitQueue(&Q)   操作结果：构造一个空队列 Q。   DestroyQueue(&Q)    初始条件：队列 Q 已存在。   操作结果：队列 Q 被销毁，不再存在。       ClearQueue(&Q)   初始条件：队列 Q 已存在。   操作结果：将 Q 清为空队列。    QueueEmpty(Q)   初始条件：队列 Q 已存在。   操作结果：若 Q 为空队列，则返回TRUE，否则返回FALSE。QueueLength(Q)   初始条件：队列 Q 已存在。    操作结果：返回 Q 的元素个数，即队列的长度。      GetHead(Q,&e)   初始条件：Q 为非空队列。   操作结果：用 e 返回Q的队头元素。  EnQueue(&Q,e)    初始条件：队列 Q 已存在。   操作结果：插入元素 e 为 Q 的新的队尾元素。  DeQueue(&Q,&e)   初始条件：Q 为非空队列。   操作结果：删除 Q 的队头元素，并用 e 返回其值。  QueueTraverse(Q,visit( ))   初始条件：队列 Q 已存在且非空，visit( )为元素的访问函数。   操作结果：依次对 Q 的每个元素调用函数 visit( )，        一旦 visit( ) 失败则操作失败。} ADT Queue"
+      }
+    },
+    {
+      "id": "DS03020202",
+      "name": "队列的常见基本操作",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": " 初始化\n  初始化操作InitQueue(&Q)功能：构造一个空队列Q；\n 取队头\n  取队头元素操作GetHead(Q,&e)功能：取队头元素，并用e返回；\n 入队\n  入队操作EnQueue(&Q,e)功能：将元素e插入Q的队尾；\n 出队\n  出队操作DeQueue(&Q,&e)功能：若队列不空，则删除Q的队头元素，用e返回其值，并返回OK，否则返回ERROR；"
+      }
+    },
+    {
+      "id": "DS03020301",
+      "name": "顺序存储的队列",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.9,
+        "description": "顺序存储的队列\n 概念\n  用一维数组实现\n 存储类型描述\n 操作\n  实现\n   先动指针，再赋值\n   先赋值，再动指针\n  初始化\n   front=rear=0\n  入队\n   将元素插入rear指针所指的位置，然后rear+1\n  出队\n   删除front所指的元素，然后front+1并返回被删除的元素\n  判断非空\n   队列为空：front==rear==0\n   队列为满\n    rear==maxSize-1\n  长度\n   rear-front\n 评价\n  容易出现假溢出"
+      }
+    },
+    {
+      "id": "DS03020302",
+      "name": "循环队列",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": "循环队列\n 概念\n  为了克服假溢出，把顺序存储的队列想象为一个首尾相连的队列\n 特点\n  首尾相连，但实质还是一维数组\n 操作\n  初始化\n   front==rear==0\n  出队\n   font=(front+1)%maxSize\n  入队\n   rear=(rear+1)%maxSize\n  长度\n   (rear+maxSize-front)%maxSize\n  非空判断\n   牺牲一个单元用来区分队列空或满，\n约定队头指针在队尾指针的下一个位置作为队满的标志\n    队列满：(rear+1)%maxSize==front\n    队列空\n     front==rear\n    长度\n     (rear+maxSize-front)%maxSize\n   在类型中添加一个标识元素个数成员\n    队列空\n     size==0\n    队列满\n     size==maxSize\n   类型中添加标识判断队列是否为空\n    空\n     tag=0\n    满\n     tag=1"
+      }
+    },
+    {
+      "id": "DS03020303",
+      "name": "链式存储的队列",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.9,
+        "description": "链式存储的队列\n 概念\n  实质是拥有队头指针和队尾指针的单链表\n 存储类型描述\n 操作\n  初始化\n  判断空\n  入队\n  出队"
+      }
+    },
+    {
+      "id": "DS03020304",
+      "name": "双端队列",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": "\n 概念\n  允许在队列的两端进行入队和出队的操作的队列，元素结构仍然是线性结构\n 分类\n  输出受限的两端队列\n   只允许在一端进行删除，但两端都可以进行插入\n  输入受限的两端队列\n   只允许在一端进行插入，但两端都可以进行删除"
+      }
+    },
+    {
+      "id": "DS04",
+      "name": "树和二叉树",
+      "type": "章节",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS0401",
+      "name": "树",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS0402",
+      "name": "二叉树",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS0403",
+      "name": "树和森林",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS0404",
+      "name": "树和二叉树的应用",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS040101",
+      "name": "树的定义和特点",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.7,
+        "description": "树是n（n≥0）结点的有限集。当n=0时，称为空树。有且仅有一个特定的称为根的结点。没有后继的结点称为“叶子结点”（或终端结点）。有后继的结点称为“分支结点”（或非终端结点）。除根节点外的所有结点有且仅有一个前驱。每个结点可以有零个或多个后继。"
+      }
+    },
+    {
+      "id": "DS040102",
+      "name": "树的基本术语",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.7,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS040103",
+      "name": "树的性质",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS040201",
+      "name": "二叉树的定义和特点",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.8,
+        "description": "二叉树是n（n≥0）个结点的有限集合：1.或者为空二叉树，即n=0。2.或者由一个根结点和两个互不相交的被称为根的左子树和右子树组成。左子树和右子树又分别是一颗二叉树。每个结点至多只有两颗子树。左右子树不能颠倒（二叉树是有序树）"
+      }
+    },
+    {
+      "id": "DS040202",
+      "name": "特殊二叉树的分类",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS040203",
+      "name": "二叉树的性质",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS040204",
+      "name": "存储结构",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS040205",
+      "name": "二叉树的遍历和线索二叉树",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS040301",
+      "name": "树的存储结构",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "包括双亲表示法、孩子表示法、孩子兄弟表示法"
+      }
+    },
+    {
+      "id": "DS040302",
+      "name": "树、森林与二叉树的转换",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "本质：用二叉链表存储森林，森林中每个树的根节点之间视为兄弟关系"
+      }
+    },
+    {
+      "id": "DS040303",
+      "name": "树和森林的遍历",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "包括树的遍历和森林的遍历"
+      }
+    },
+    {
+      "id": "DS040401",
+      "name": "二叉树的应用",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "哈夫曼树"
+      }
+    },
+    {
+      "id": "DS040402",
+      "name": "树的应用",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "并查集"
+      }
+    },
+    {
+      "id": "DS04010201",
+      "name": "结点的度",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.6,
+        "description": "结点的分支数"
+      }
+    },
+    {
+      "id": "DS04010202",
+      "name": "树的度",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.6,
+        "description": "树中结点的最大度数称为树的度"
+      }
+    },
+    {
+      "id": "DS04010203",
+      "name": "分支结点（非终端结点）",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.6,
+        "description": "度大于0的结点"
+      }
+    },
+    {
+      "id": "DS04010204",
+      "name": "叶子结点（终端结点）",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.6,
+        "description": "度为0（没有子女结点）的结点"
+      }
+    },
+    {
+      "id": "DS04010205",
+      "name": "结点的深度",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.7,
+        "description": "从根结点开始自顶向下逐层累加"
+      }
+    },
+    {
+      "id": "DS04010206",
+      "name": "结点的高度",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.7,
+        "description": "从叶子节点开始自底向上逐层累加"
+      }
+    },
+    {
+      "id": "DS04010207",
+      "name": "有序树和无序树",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.6,
+        "description": "树中结点的各子树从左到右是有次序的，不能互换，称该树为有序树，否则称为无序树"
+      }
+    },
+    {
+      "id": "DS04010208",
+      "name": "路径和路径长度",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.7,
+        "description": "树中两个结点之间的路径是由这两个结点之间所经过的结点序列构成的，而路径长度是路径上所经过的边的个数（树中的路径是从上到下的）"
+      }
+    },
+    {
+      "id": "DS04010209",
+      "name": "森林",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.6,
+        "description": "由m（m≥0）棵互不相交的树的集合"
+      }
+    },
+    {
+      "id": "DS04010301",
+      "name": "结点数",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.7,
+        "description": "总度数+1"
+      }
+    },
+    {
+      "id": "DS04010302",
+      "name": "度为m的树、m叉树的区别",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "度为m的树任意结点的度≤m（最多m个孩子）、m叉树任意结点的度≤m（最多m个孩子）。度为m的树至少有一个结点度=m（有m个孩子）、m叉树允许所有结点的度都<m。度为m的树一定是非空树且至少有m+1个结点、m叉树可以是空树"
+      }
+    },
+    {
+      "id": "DS04010303",
+      "name": "第i层结点数",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "度为m的树第i层至多有m^(i-1)个结点（i≥1），m叉树第i层至多有m^(i-1)个结点（i≥1）"
+      }
+    },
+    {
+      "id": "DS04010304",
+      "name": "m叉树结点最多的数量",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "高度为h的m叉树最多有(m^h - 1) / (m - 1)个节点"
+      }
+    },
+    {
+      "id": "DS04010305",
+      "name": "m叉树和度为m的树结点最少的数量",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "高度为h的m叉树至少有h个结点，高度为h、度为m的树至少有h+m-1个结点"
+      }
+    },
+    {
+      "id": "DS04010306",
+      "name": "m叉树的最小高度",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "具有n个节点的m叉树的最小高度为⌈logm(n(m-1)+1)⌉"
+      }
+    },
+    {
+      "id": "DS04020201",
+      "name": "满二叉树的定义和特点",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.8,
+        "description": "一颗高度为h，且含有2^h-1个结点的二叉树。只有最后一层有叶子结点。不存在度为1的结点"
+      }
+    },
+    {
+      "id": "DS04020202",
+      "name": "完全二叉树的定义和特点",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.8,
+        "description": "当且仅当每个结点都与高度为h的满二叉树中编号为1~n的结点一一对应时，称为完全二叉树"
+      }
+    },
+    {
+      "id": "DS04020203",
+      "name": "二叉排序树",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": "左子树上所有结点的关键字小于根节点的关键字。右子树上所有结点的关键字大于根节点的关键字。左子树和右子树又各是一颗二叉排序树。"
+      }
+    },
+    {
+      "id": "DS04020204",
+      "name": "平衡二叉树",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": "树上任一结点的左子树和右子树的深度之差不超过1。"
+      }
+    },
+    {
+      "id": "DS04020301",
+      "name": "普通二叉树的性质",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "树的结点数=总度数+1——n0=n2+1。二叉树第i层至多有2^(i-1)个结点（i≥1），m叉树第i层至多有m^（i-1）个结点（i≥1）。高度为h的二叉树至多有2^h-1个结点（满二叉树），高度为h的m叉树最多有(m^h - 1) / (m - 1)个节点。"
+      }
+    },
+    {
+      "id": "DS04020302",
+      "name": "完全二叉树的性质",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "具有n个（n＞0）结点的完全二叉树的高度h为⌈log2（n+1）⌉或 ⌊log2（n）⌋+1 ——2^(h-1)-1＜n＜2^h。完全二叉树最多只有一个度为1的结点，即n1=0或1。若完全二叉树有2k个（偶数）个结点，则必有n1=1，n0=k，n2=k-1。若完全二叉树有2k-1个（奇数）个结点，则必有n1=0，n0=k，n2=k-1"
+      }
+    },
+    {
+      "id": "DS04020401",
+      "name": "顺序存储",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "一定要把二叉树的结点编号和完全二叉树对应起来。i的左孩子——2i。i的右孩子——2i+1。i的父节点——⌊i/2⌋。"
+      }
+    },
+    {
+      "id": "DS04020402",
+      "name": "链式存储",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "n个结点的二叉链表共有n+1个空链域"
+      }
+    },
+    {
+      "id": "DS04020501",
+      "name": "二叉树的遍历",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": "按某条搜索路径访问树中每个结点，使得每个结点均被访问一次，而且仅被访问一次"
+      }
+    },
+    {
+      "id": "DS04020502",
+      "name": "线索二叉树",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS04030101",
+      "name": "双亲表示法",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "概念：采用一组连续空间来存储每个结点，同时在每个结点中增设一共伪指针，指使其双亲结点在数组中的位置。根节点下标为0，其伪指针域为-1。优点：查指定结点的双亲很方便。缺点：查指定结点的孩子只能从头遍历，遍历整个结构。"
+      }
+    },
+    {
+      "id": "DS04030102",
+      "name": "孩子表示法",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "概念：将每个结点的孩子结点都用单链表链接起来形成一个线性结构顺序存储各个结点，每个结点中都保存孩子链表头指针。优点：查指定结点的子女结点很方便。缺点：寻找双亲操作需要遍历n个结点孩子链表指针域所指向的n个孩子链表。"
+      }
+    },
+    {
+      "id": "DS04030103",
+      "name": "孩子兄弟表示法",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "概念：以二叉链表作为树的存储结构（左孩子右兄弟），孩子兄弟表示法使每个结点包括三部分内容：结点值、指向第一个孩子结点的指针、指向结点下一个兄弟结点的指针。优点：实现树转换为二叉树的操作很方便。缺点：从当前结点查找其双亲结点比较麻烦（若为每个结点增设一共parent域指向其父结点，则查找结点的父节点也很方便）"
+      }
+    },
+    {
+      "id": "DS04030301",
+      "name": "树的遍历",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "包括先根遍历和后根遍历"
+      }
+    },
+    {
+      "id": "DS04030302",
+      "name": "森林的遍历",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "包括先序遍历和中序遍历"
+      }
+    },
+    {
+      "id": "DS04040101",
+      "name": "带权路径长度",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "结点的权：有某种现实含义的数值。结点的带权路径长度：从树的根到该结点的路径长度与该结点上权值的乘积。树的带权路径长度：树中所有叶结点的带权路径长度之和。"
+      }
+    },
+    {
+      "id": "DS04040102",
+      "name": "哈夫曼树的定义",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "在含有n个带权叶结点的二叉树中，其中带权路径长度最小的二叉树称为哈夫曼树"
+      }
+    },
+    {
+      "id": "DS04040103",
+      "name": "哈夫曼树的构造",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": "过程：给定n个权值分别为w1,w2,...,wn的结点，构造哈夫曼树的算法描述如下：1.将这n个结点分别作为n棵仅含一个结点的二叉树，构成森林F。 2.构造一个新结点，将F中选取两颗根节点权值最小的树作为新结点的左、右子树，并且将新结点的权值置为左、右子树上根节点的权值之和。 3.从F中删除刚才选出的两棵树，同时将新得到的树加入F中。  4.重复步骤2和3，直至F中只剩下一棵树为止。特点：1.每个初始结点最终都成为叶结点，且权值越小的结点到根节点的路径长度越大. 2.哈夫曼树的结点总数为2n-1. 3.哈夫曼树不存在度为1的结点  4.哈夫曼树并不唯一，但WPL必然相同且为最优。"
+      }
+    },
+    {
+      "id": "DS04040104",
+      "name": "哈夫曼编码",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": "固定长度编码：在数据通信中，对每个字符用相同长度的二进制来表示。可变长度编码：对不同字符用不等长的二进制位来表示。前缀编码：没有一个编码是另一个编码的前缀。构建哈夫曼编码：将每个出现的字符当作一个独立的结点，其权值为它出现的频度(或次数)，构造出对应的哈夫树其中边标记为0表示\"转向左孩子\"，标记为1表示\"转向右孩子\""
+      }
+    },
+    {
+      "id": "DS04040201",
+      "name": "并查集的概念",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "是一种简单的集合表示。"
+      }
+    },
+    {
+      "id": "DS04040202",
+      "name": "并查集的操作",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "初始、查和并。"
+      }
+    },
+    {
+      "id": "DS04040203",
+      "name": "并查集的优化",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": "用根结点的绝对值表示一棵树的结点总数,Union操作合并两棵树时，小树并入大树。"
+      }
+    },
+    {
+      "id": "DS0402050101",
+      "name": "先序遍历",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "根左右（NLR）——//先序遍历\nvoid PreOrder(BiTree T){\n    if(T!=NULL){\n        visti(T);//访问根节点\n        PreOrder(T->lchild);//递归遍历左子树\n        PreOrder(T->rchild);//递归遍历右子树\n    }\n}"
+      }
+    },
+    {
+      "id": "DS0402050102",
+      "name": "中序遍历",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "左根右（LNR）——//中序遍历\nvoid InOrder(BiTree T){\n    if(T!=NULL){\n        InOrder(T->lchild);//递归遍历左子树\n        visti(T);//访问根节点\n        InOrder(T->rchild);//递归遍历右子树\n    }\n}"
+      }
+    },
+    {
+      "id": "DS0402050103",
+      "name": "后序遍历",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "左右根（LRN）——//后序遍历\nvoid PostOrder(BiTree T){\n    if(T!=NULL){\n        PostOrder(T->lchild);//递归遍历左子树\n        PostOrder(T->rchild);//递归遍历右子树\n        visti(T);//访问根节点\n    }\n}"
+      }
+    },
+    {
+      "id": "DS0402050104",
+      "name": "层次遍历",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "根结点 左子树的根 右子树的根——利用队列进行实现"
+      }
+    },
+    {
+      "id": "DS0402050105",
+      "name": "由二叉树的遍历序列构造二叉树",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": "前序+中序遍历序列、后序+中序遍历序列、后序+中序遍历序列"
+      }
+    },
+    {
+      "id": "DS0402050201",
+      "name": "线索二叉树的作用",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "是为了加快查找结点前驱和后继的速度"
+      }
+    },
+    {
+      "id": "DS0402050202",
+      "name": "线索二叉树的存储结构",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "标志含义\n\tltag\n\t\t1\n\t\t\t表示lchild指向前驱\n\t\t0\n\t\t\t表示lchild指向左孩子\n\trtag\n\t\t1\n\t\t\t表示rchild指向后继\n\t\t0\n\t\t\t表示rchild指向右孩子"
+      }
+    },
+    {
+      "id": "DS0402050203",
+      "name": "三种线索二叉树",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": "先序线索二叉树、中序线索二叉树、后序线索二叉树"
+      }
+    },
+    {
+      "id": "DS0402050204",
+      "name": "找前驱/后继",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": "           中序线索二叉树 先序线索二叉树 后续线索二叉树 \n找前驱 √                       ×                          × \n找后继 √                      √                          × "
+      }
+    },
+    {
+      "id": "DS0403030101",
+      "name": "先根遍历",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "若树非空，先访问根结点，再依次遍历根节点的每棵子树，遍历子树时仍遵循先根后子树的规则。其遍历序列与这棵树相应的的先序序列相同"
+      }
+    },
+    {
+      "id": "DS0403030102",
+      "name": "后根遍历",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "若树非空，先依次遍历根结点的每棵子树，再访问根结点，遍历子树仍遵循先子树后根的规则。其遍历序列与这棵树相应的中序序列相同"
+      }
+    },
+    {
+      "id": "DS0403030201",
+      "name": "先序遍历",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "若森林非空，访问森林中第一棵树的根节点，先序遍历第一棵树中根节点的子树森林，先序遍历除去第一棵树之后剩余的树构成的森林"
+      }
+    },
+    {
+      "id": "DS0403030202",
+      "name": "中序遍历",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "若森林非空，中序遍历森林中第一棵树的根节点的子树森林，访问第一棵树的根结点，中序遍历除去第一棵树之后剩余的树构成的森林"
+      }
+    },
+    {
+      "id": "DS05",
+      "name": "图",
+      "type": "章节",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.9,
+        "description": "数据结构中的一种非线性结构，由顶点和边组成"
+      }
+    },
+    {
+      "id": "DS0501",
+      "name": "图的定义",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.8,
+        "description": "图是由顶点和边组成的非线性数据结构"
+      }
+    },
+    {
+      "id": "DS0502",
+      "name": "图的分类",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "包括有向图、无向图、带权图等"
+      }
+    },
+    {
+      "id": "DS0503",
+      "name": "图的存储结构",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "存储图的方式"
+      }
+    },
+    {
+      "id": "DS050301",
+      "name": "邻接矩阵",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "使用二维数组存储图的顶点之间关系"
+      }
+    },
+    {
+      "id": "DS050302",
+      "name": "邻接表",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "使用数组和链表结合存储图"
+      }
+    },
+    {
+      "id": "DS050303",
+      "name": "十字链表",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "用于存储有向图的链表结构"
+      }
+    },
+    {
+      "id": "DS050304",
+      "name": "邻接多重表",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "用于存储无向图的链表结构"
+      }
+    },
+    {
+      "id": "DS0504",
+      "name": "图的遍历",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": "访问图中所有顶点的过程"
+      }
+    },
+    {
+      "id": "DS050401",
+      "name": "深度优先搜索（DFS）",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": "从起始顶点出发，沿一条路径尽可能深入搜索"
+      }
+    },
+    {
+      "id": "DS05040101",
+      "name": "DFS的递归实现",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.7,
+        "description": "使用递归函数实现DFS遍历"
+      }
+    },
+    {
+      "id": "DS05040102",
+      "name": "DFS的非递归实现",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.6,
+        "description": "使用栈结构实现DFS遍历"
+      }
+    },
+    {
+      "id": "DS050402",
+      "name": "广度优先搜索（BFS）",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": "从起始顶点出发，按层次访问所有顶点"
+      }
+    },
+    {
+      "id": "DS05040201",
+      "name": "BFS的队列实现",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.7,
+        "description": "使用队列实现BFS遍历"
+      }
+    },
+    {
+      "id": "DS0505",
+      "name": "最小生成树",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": "生成树中权值之和最小的树"
+      }
+    },
+    {
+      "id": "DS050501",
+      "name": "Prim算法",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.7,
+        "description": "适用于稠密图的最小生成树算法"
+      }
+    },
+    {
+      "id": "DS05050101",
+      "name": "Prim算法的邻接矩阵实现",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.6,
+        "description": "基于邻接矩阵的Prim算法实现"
+      }
+    },
+    {
+      "id": "DS05050102",
+      "name": "Prim算法的邻接表实现",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.6,
+        "description": "基于邻接表的Prim算法实现"
+      }
+    },
+    {
+      "id": "DS050502",
+      "name": "Kruskal算法",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.7,
+        "description": "适用于稀疏图的最小生成树算法"
+      }
+    },
+    {
+      "id": "DS05050201",
+      "name": "Kruskal算法的Union-Find实现",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.6,
+        "description": "使用并查集实现Kruskal算法"
+      }
+    },
+    {
+      "id": "DS0506",
+      "name": "最短路径算法",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.9,
+        "description": "计算图中两点之间的最短路径"
+      }
+    },
+    {
+      "id": "DS050601",
+      "name": "Dijkstra算法",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.8,
+        "description": "单源最短路径算法"
+      }
+    },
+    {
+      "id": "DS05060101",
+      "name": "Dijkstra算法的邻接矩阵实现",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 1,
+        "importance": 0.7,
+        "description": "基于邻接矩阵的Dijkstra算法实现"
+      }
+    },
+    {
+      "id": "DS05060102",
+      "name": "Dijkstra算法的邻接表实现",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 1,
+        "importance": 0.7,
+        "description": "基于邻接表的Dijkstra算法实现"
+      }
+    },
+    {
+      "id": "DS050602",
+      "name": "Floyd算法",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.7,
+        "description": "多源最短路径算法"
+      }
+    },
+    {
+      "id": "DS05060201",
+      "name": "Floyd算法的迭代实现",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 1,
+        "importance": 0.6,
+        "description": "使用迭代方法实现Floyd算法"
+      }
+    },
+    {
+      "id": "DS0507",
+      "name": "拓扑排序",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "有向无环图顶点的线性排序"
+      }
+    },
+    {
+      "id": "DS050701",
+      "name": "拓扑排序的入度法实现",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.7,
+        "description": "基于入度计算的拓扑排序算法"
+      }
+    },
+    {
+      "id": "DS050702",
+      "name": "拓扑排序的DFS实现",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "基于DFS的拓扑排序算法"
+      }
+    },
+    {
+      "id": "DS0508",
+      "name": "关键路径",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.7,
+        "description": "在AOE网中寻找决定工程最短工期的路径"
+      }
+    },
+    {
+      "id": "DS050801",
+      "name": "关键路径的计算方法",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.6,
+        "description": "计算最早开始时间和最晚开始时间以确定关键路径"
+      }
+    },
+    {
+      "id": "DS0509",
+      "name": "图的应用",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "图在实际问题中的应用"
+      }
+    },
+    {
+      "id": "DS050901",
+      "name": "网络流问题",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.7,
+        "description": "研究物质在网络中流动的规律和优化方法"
+      }
+    },
+    {
+      "id": "DS05090101",
+      "name": "最大流问题",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.6,
+        "description": "寻找网络中从源点到汇点的最大流量"
+      }
+    },
+    {
+      "id": "DS05090102",
+      "name": "最小割问题",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.6,
+        "description": "寻找将网络分割成两部分的最小容量"
+      }
+    },
+    {
+      "id": "DS050902",
+      "name": "图的着色问题",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.7,
+        "description": "给图的顶点或边着色，满足一定条件的问题"
+      }
+    },
+    {
+      "id": "DS05090201",
+      "name": "顶点着色",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.6,
+        "description": "给图的顶点着色，使得相邻顶点颜色不同"
+      }
+    },
+    {
+      "id": "DS05090202",
+      "name": "边着色",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.6,
+        "description": "给图的边着色，使得相邻边颜色不同"
+      }
+    },
+    {
+      "id": "DS050903",
+      "name": "旅行商问题（TSP）",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.8,
+        "description": "寻找经过所有顶点且总路径最短的回路"
+      }
+    },
+    {
+      "id": "DS05090301",
+      "name": "TSP的动态规划解法",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 1,
+        "importance": 0.7,
+        "description": "使用动态规划求解TSP问题"
+      }
+    },
+    {
+      "id": "DS05090302",
+      "name": "TSP的启发式解法",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 1,
+        "importance": 0.6,
+        "description": "使用启发式算法近似求解TSP问题"
+      }
+    },
+    {
+      "id": "DS0510",
+      "name": "图的连通性",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "图中顶点之间的连通关系"
+      }
+    },
+    {
+      "id": "DS051001",
+      "name": "无向图的连通分量",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.6,
+        "description": "无向图中极大连通子图"
+      }
+    },
+    {
+      "id": "DS051002",
+      "name": "有向图的强连通分量",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "有向图中极大强连通子图"
+      }
+    },
+    {
+      "id": "DS051003",
+      "name": "图的关节点",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "删除后会使图连通性降低的顶点"
+      }
+    },
+    {
+      "id": "DS051004",
+      "name": "图的桥",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "删除后会使图连通性降低的边"
+      }
+    },
+    {
+      "id": "DS0511",
+      "name": "图的矩阵表示法",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "使用矩阵表示图的结构和属性"
+      }
+    },
+    {
+      "id": "DS051101",
+      "name": "邻接矩阵的性质",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "邻接矩阵的行列数、对称性等性质"
+      }
+    },
+    {
+      "id": "DS051102",
+      "name": "邻接矩阵的操作",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.5,
+        "description": "如矩阵的加法、乘法等操作在图中的应用"
+      }
+    },
+    {
+      "id": "DS0512",
+      "name": "图的遍历策略",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "不同的遍历策略及其特点"
+      }
+    },
+    {
+      "id": "DS051201",
+      "name": "基于栈的遍历策略",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "使用栈实现图的遍历"
+      }
+    },
+    {
+      "id": "DS051202",
+      "name": "基于队列的遍历策略",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "使用队列实现图的遍历"
+      }
+    },
+    {
+      "id": "DS0513",
+      "name": "图的权值计算",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "计算图中边或路径的权值"
+      }
+    },
+    {
+      "id": "DS051301",
+      "name": "最短路径的权值计算",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": "计算两点之间的最短路径权值"
+      }
+    },
+    {
+      "id": "DS051302",
+      "name": "最小生成树的权值计算",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.7,
+        "description": "计算生成树的最小权值"
+      }
+    },
+    {
+      "id": "DS0514",
+      "name": "图的路径寻找",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "在图中寻找特定路径的方法"
+      }
+    },
+    {
+      "id": "DS051401",
+      "name": "基于深度优先的路径寻找",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.7,
+        "description": "使用DFS寻找路径"
+      }
+    },
+    {
+      "id": "DS051402",
+      "name": "基于广度优先的路径寻找",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.7,
+        "description": "使用BFS寻找路径"
+      }
+    },
+    {
+      "id": "DS0515",
+      "name": "图的环检测",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "检测图中是否存在环"
+      }
+    },
+    {
+      "id": "DS051501",
+      "name": "基于遍历的环检测",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "使用DFS或BFS检测环"
+      }
+    },
+    {
+      "id": "DS051502",
+      "name": "基于拓扑排序的环检测",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "使用拓扑排序检测有向图中的环"
+      }
+    },
+    {
+      "id": "DS0516",
+      "name": "图的优化算法",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": "对图的存储、遍历和计算进行优化的方法"
+      }
+    },
+    {
+      "id": "DS051601",
+      "name": "存储结构优化",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.6,
+        "description": "如压缩存储、高效数据结构等优化方法"
+      }
+    },
+    {
+      "id": "DS051602",
+      "name": "遍历算法优化",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.6,
+        "description": "如改进遍历顺序、减少重复访问等优化方法"
+      }
+    },
+    {
+      "id": "DS051603",
+      "name": "计算复杂度优化",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.7,
+        "description": "降低算法的时间和空间复杂度"
+      }
+    },
+    {
+      "id": "DS06",
+      "name": "排序",
+      "type": "章节",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": "概念：将各元素按照关键字递增/递减顺序重新排列。评价指标：时间复杂度/空间复杂度/稳定性/适用性"
+      }
+    },
+    {
+      "id": "DS0601",
+      "name": "内部排序",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.6,
+        "description": "概念：排序期间，数据都在内存中。"
+      }
+    },
+    {
+      "id": "DS0602",
+      "name": "外部排序",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.7,
+        "description": "概念：排序期间，元素无法全部放入内存中，必须在排序的过程中根据要求不断地在内、外存之间移动。"
+      }
+    },
+    {
+      "id": "DS060101",
+      "name": "插入排序",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.6,
+        "description": "概念：每次将一个待排序的记录按其关键字大小插入到前面已排好序的子序列中，直到全部记录插入完成。"
+      }
+    },
+    {
+      "id": "DS06010101",
+      "name": "直接插入排序",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.6,
+        "description": "概念：每次将一个待排序的记录按其关键字大小，使用顺序查找找到前面子序列中应该插入的位置并插入，直到全部记录插入完成。时间复杂度：O(n2)。空间复杂度：O(1)。稳定性：稳定。适用性：适用于顺序表和链表。"
+      }
+    },
+    {
+      "id": "DS06010102",
+      "name": "折半插入排序",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.6,
+        "description": "概念：每次将一个待排序的记录按其关键字大小，使用折半查找找到前面子序列中应该插入的位置并插入，直到全部记录插入完成。时间复杂度：O(n2)。空间复杂度：O(1)。稳定性：稳定。适用性：仅适用于顺序表。"
+      }
+    },
+    {
+      "id": "DS06010103",
+      "name": "希尔排序",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "概念：先将待排序表分割成若干形如L【i,i+d,i+2d,...,i+kd】的“特殊”子表，对各个子表分别进行直接插入排序，缩小增量d，重复上述过程，直到d=1为止。时间复杂度：未知但优于直接插入排序。空间复杂度：O(1)。稳定性：不稳定。适用性：仅适用于顺序表。"
+      }
+    },
+    {
+      "id": "DS060102",
+      "name": "交换排序",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "概念：指根据序列中两个关键字比较的结果来对换这两个关键字在序列中的位置。"
+      }
+    },
+    {
+      "id": "DS06010201",
+      "name": "冒泡排序",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.5,
+        "description": "概念：从后往前（或从前往后）两两比较相邻元素的值，若为逆序，则交换它们，知道序列比较结束。称这样过程为“一趟”冒泡排序。n个关键字最多只需要n-1趟排序。每一趟排序都可以使一个元素移动到最终位置，已经确定最终位置的元素在之后的处理中无需再对比，如果一趟排序过程中未发生“交换”，则算法可提前结束。时间复杂度：O(n2)。空间复杂度：O(n)。稳定性：稳定。适用性：适用于顺序表和链表。"
+      }
+    },
+    {
+      "id": "DS06010202",
+      "name": "快速排序",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": "概念：在待排序表L【1...n】中任选一个元素pivot作为枢轴（通常取首元素），通过一趟排序将待排序表分为独立的两部分L【1...k-1】和L【k-1...n】。使得L【1...k-1】中的所有元素小于pivot，L【k-1...n】中的所有元素大于等于pivot，则pivot放在了其最终位置L【k】上。重复此过程直到每部分内只有一个元素或空为止。时间复杂度：O(nlogn)。空间复杂度：O(n)。稳定性：不稳定。适用性：仅适用于顺序表。"
+      }
+    },
+    {
+      "id": "DS060103",
+      "name": " ",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.6,
+        "description": "概念：每一趟在待排序元素中选取关键字最小（或最大）的元素加入有序子序列。"
+      }
+    },
+    {
+      "id": "DS06010301",
+      "name": "简单选择排序",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.5,
+        "description": "概念：每一趟在待排序元素中选取关键字最小的元素与待排序元素中的第一个元素交换位置。必须进行n-1趟处理。时间复杂度：O(n2)。空间复杂度：O(1)。稳定性：稳定。适用性：适用于顺序表和链表。"
+      }
+    },
+    {
+      "id": "DS06010302",
+      "name": "堆排序",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.8,
+        "description": "概念：（以大根堆为例）将堆顶元素加入有序子序列（堆顶元素与堆底元素交换）堆底元素换到堆顶后，需要进行”下坠“调整，恢复”大根堆“的特性，上述过程重复n-1趟。时间复杂度：O(nlogn)。空间复杂度：O(1)。稳定性：不稳定。适用性：仅适用于顺序表。"
+      }
+    },
+    {
+      "id": "DS0601030201",
+      "name": "堆",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": "概念：堆是顺序存储的“完全二叉树”，堆中的节点满足：节点i的左孩子是2i；右孩子是2i+1;父节点是i/2；"
+      }
+    },
+    {
+      "id": "DS060103020101",
+      "name": "大根堆",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": "概念：根节点大于左右孩子节点。"
+      }
+    },
+    {
+      "id": "DS060103020102",
+      "name": "小根堆",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": "概念：根节点小于左右孩子节点。"
+      }
+    },
+    {
+      "id": "DS060104",
+      "name": "归并排序",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": "概念：归并是指把两个或多个已经有序的序列合并成一个新的有序表，k路归并每选出一个元素，需要对比关键字k-1次。时间复杂度：O(nlogn)。空间复杂度：O(n)。稳定性：稳定。适用性：适用于顺序表和链表。"
+      }
+    },
+    {
+      "id": "DS060105",
+      "name": "基数排序",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.5,
+        "description": "概念：把整个关键字拆分为d位，按照各个关键字字位递增的次序（比如：个、十、百、千），做d趟”分配“和”收集“，若当前处理关键字字位可能取得r个值，则需要建立r个队列。分配：顺序扫描各个元素，根据当前处理的关键字字位，将元素插入相应的队列。一趟分配耗时O(n)。收集：把各个队列中的结点依次出队并链接。一趟收集耗时O(r）。时间复杂度：一共进行d趟分配收集，一趟分配需要O(n)，一趟收集需要O(r），时间复杂度为O[d(n+r)]，与序列的初始状态无关。空间复杂度：O(r），其中r为辅助队列数量。稳定性：稳定。适用性：适用于整数或字符串等数据类型的排序。"
+      }
+    },
+    {
+      "id": "DS060201",
+      "name": "多路归并排序",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": "概念：将数据分成多个块，每个块在内存中排序。使用多路归并（如2路、4路或更多）将排序后的块合并。"
+      }
+    },
+    {
+      "id": "DS060202",
+      "name": "置换选择排序",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.8,
+        "description": "概念：在内存中维护一个最小堆，从输入数据中选择最小的元素输出到归并段。当堆中的元素无法继续输出时，生成一个新的归并段。"
+      }
+    },
+    {
+      "id": "DS060203",
+      "name": "败者树",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.8,
+        "importance": 0.6,
+        "description": "概念：用于优化多路归并的比较次数。通过败者树结构快速找到当前最小的元素。"
+      }
+    },
+    {
+      "id": "DS07",
+      "name": "查找",
+      "type": "章节",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS0701",
+      "name": "查找的基本概念",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS070101",
+      "name": "查找表的定义",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.8,
+        "description": "由同一类型的数据元素（或记录）构成的集合， 可利用任意数据结构实现。 "
+      }
+    },
+    {
+      "id": "DS070102",
+      "name": "查找表的操作",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.7,
+        "description": "查询某个\"特定的\"数据元素是否在表中、检索某个\"特定的\"数据元素的各种属性、在查找表中插入一个数据元素、从查找表中删除某个数据元素"
+      }
+    },
+    {
+      "id": "DS070103",
+      "name": "查找表的类别",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.7,
+        "description": "静态查找表（Static Search Table）：在使用时主要做前两种统称为\"查找\"的操作\n动态查找表（Dynamic Search Table）：在对查找表进行查找的过程中，同时需要随时插入当前查找表中不存在的数据元素，或者从当前的查找表中删除已存在的某个数据元素"
+      }
+    },
+    {
+      "id": "DS070104",
+      "name": "关键字",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.7,
+        "description": "数据元素的某个（几个）数据项的值。如果一个数据项可以唯一标识列表中的一个数据元素， 则称其为关键字。"
+      }
+    },
+    {
+      "id": "DS070105",
+      "name": "涉及参量",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.6,
+        "description": "查找对象K（找什么）：给定关键字值\n查找范围L（在哪找）：在特定的查找（列）表中确定一个其关键字与给定值相同的数据元素\nK在L中的位置（查找的结果）：若找到相应的数据元素， 则查找成功，返回该数据元素在列表中的位置；无法找到数据元素，则查找失败，此时应返回空地址及失败信息，并可根据要求插入这个不存在的数据元素。"
+      }
+    },
+    {
+      "id": "DS070106",
+      "name": "平均查找长度ASL",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 1,
+        "description": "为确定数据元素在列表中的位置， 需和给定值进行比较的平均次数，称为查找算法在查找成功时的平均查找长度。\n找成功时的平均查找长度。对于长度为n的列表， 查找成功时的平均查找长度为： ASL=P1C1+P2C2+……+PnCn\nPi为查找第i个元素的概率，Ci为找到列表中第i个数据元素时，已经进行过的关键字比较次数。"
+      }
+    },
+    {
+      "id": "DS0702",
+      "name": "线性表的查找",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS070201",
+      "name": "顺序查找",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS07020101",
+      "name": "顺序查找的基本思想",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.8,
+        "description": "从表的一端开始，顺序扫描线性表，依次将扫描到的结点关键字和待找的值Ｋ相比较，若相等，则查找成功，若整个表扫描完毕，仍末找到关键字等于Ｋ的元素，则查找失败。顺序查找的表中元素可以是无序的。"
+      }
+    },
+    {
+      "id": "DS07020102",
+      "name": "顺序查找的存储结构",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.6,
+        "description": "顺序结构：若采用顺序表，查找可从前往后扫描，也可从后往前扫描\n链式结构：若采用单链表，只能从前往后扫描"
+      }
+    },
+    {
+      "id": "DS07020103",
+      "name": "顺序查找的ADT定义",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.5,
+        "description": "顺序结构数据类型定义：\ntypedef struct{ \n    keytype  key;\n    ……\n} Elemtype;\n\ntypedef struct { \n    Elemtype *elem;\n    int length; \n} Sstable;"
+      }
+    },
+    {
+      "id": "DS07020104",
+      "name": "顺序查找的算法实现",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.7,
+        "description": "int SeqSearch(Sstable ST,KeyType k){\n//在顺序表中顺序查找其关键字等于k的元素， 若找到， 则函数值为该元素在表中的位置，否则为0  \n    st.elem[0].key=k;  // 起到“哨兵”的作用\n    for (i=st.length;!eq(st.elem[i].key,k);--i)   //从后往前查找\n    return (i);  \n}"
+      }
+    },
+    {
+      "id": "DS07020105",
+      "name": "顺序查找的性能分析",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.7,
+        "description": "ASL计算：假设列表长度为n，那么查找第i个数据元素时需进行n-i+1次比较，即Ci=n-i+1。又假设查找每个数据元素的概率相等，即Pi=1/n。\nASL=1/n*(C1+C2+……+Cn)=1/2*(n+1)\n时间复杂度O(n)"
+      }
+    },
+    {
+      "id": "DS07020106",
+      "name": "顺序查找的优点",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.6,
+        "description": "算法简单，对查找表结构无任何要求，无论是用向量还是用链表来存放结点，也无论结点之间是否按关键字有序或无序排，它都同样适用。"
+      }
+    },
+    {
+      "id": "DS07020107",
+      "name": "顺序查找的缺点",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.6,
+        "description": "查找效率低，当 n 较大时，不宜采用顺序查找。"
+      }
+    },
+    {
+      "id": "DS070202",
+      "name": "二分查找",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 1,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS07020201",
+      "name": "二分查找的基本思想",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.9,
+        "description": "一种高效率的查找方法。但要求表中元素必须按关键字有序(升序或降序)。假设表中元素为升序排列：首先将表中间位置记录的关键字与查找关键字比较，如果两者相等，则查找成功；否则利用中间位置记录将表分成前、后两个子表， 如果中间位置记录的关键字大于查找关键字，则进一步查找前一子表，否则进一步查找后一子表。\n重复以上过程，直到找到满足条件的记录，使查找成功，或直到子表不存在为止，此时查找不成功。"
+      }
+    },
+    {
+      "id": "DS07020202",
+      "name": "二分查找的算法实现",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": "int bin_search (Sstable ST, KeyType k) {\n    low=1;  hig=st.length;  found=0;\n    while(low<=hig) {\n        mid=(low +hig)/2;                           //取区间中点\n        if (st.elem[mid].key==k) {\n            found=1; return (mid);\n        }   //查找成功\n        if (st.elem[mid].key>k) hig=mid-1;   //在左子区间中查找\n        else  low=mid+1;                              //在右子区间中查找\n    }\n    if (found==0)\n        return(0); //查找失败\n}"
+      }
+    },
+    {
+      "id": "DS07020203",
+      "name": "二分查找的性能分析",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.9,
+        "description": "ASL=log2(n+1)-1；时间复杂度O(logn)"
+      }
+    },
+    {
+      "id": "DS07020204",
+      "name": "二分查找判定树",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "二分查找的过程可以用二叉树来描述。把当前查找区间的中点作为根结点，左子区间和右子区间分别作为根的左子树和右子树，左子区间和右子区间再按类似的方法，由此得到的二叉树称为二分查找的判定树。所做比较的次数恰为该结点在判定树上的层次数。因此，折半查找成功时，关键字比较次数最多不超过判定树的深度。"
+      }
+    },
+    {
+      "id": "DS070203",
+      "name": "分块查找",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.5,
+        "description": "顺序查找的一种改进方法。"
+      }
+    },
+    {
+      "id": "DS07020301",
+      "name": "分块查找的基本思想",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.5,
+        "description": "将一个主表分成n个子表（块），子表之间元素按关键字“分块有序”排列，子表中元素可以无序，用每个子表的最大关键字和指示子表中第一个记录所在表中位置建立索引表。查找过程是先确定待查记录所在的块，然后在块中顺序查找。"
+      }
+    },
+    {
+      "id": "DS0703",
+      "name": "树表查找",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS070301",
+      "name": "二叉排序树查找",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS07030101",
+      "name": "二叉排序树的定义",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.2,
+        "importance": 0.9,
+        "description": "二叉排序树，它或者是一棵空树，或者是一棵具有如下特征的非空二叉树：\n(1)若它的左子树非空，则左子树上所有结点的关键字均小于根结点的关键字；\n(2)若它的右子树非空，则右子树上所有结点的关键字均大于等于根结点的关键字； \n(3)左、右子树本身又都是一棵二叉排序树。"
+      }
+    },
+    {
+      "id": "DS07030102",
+      "name": "二叉排序树的基本操作",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.8,
+        "description": "建立：首先，将二叉排序树初始化为一棵空树，然后读入元素，每读入一个元素，建立一个新的结点并插入到当前已生成的二叉排序树中。时间复杂度O(logn)\n插入：已知一个关键字值为key的结点s， 若将其插入到二叉排序树中，只要保证插入后仍符合二叉排序树的定义即可。\n① 若二叉排序树是空树，则key成为二叉排序树的根；\n② 若二叉排序树非空， 则将key与二叉排序树的根进行比较，如果key的值等于根结点的值，则停止插入；如果key的值小于根结点的值，则将key插入左子树；如果key的值大于根结点的值，则将key插入右子树。时间复杂度O(logn)\n删除：从二叉排序树中删除一个结点，不能把以该结点为根的子树都删去， 只能删掉该结点，并且还应保证删除后所得的二叉树仍然满足二叉排序树的性质不变。删除操作首先要查找，已确定被删结点是否在二叉排序树中。若不在 ，则不做任何操作；否则，假设要删除的结点为p，结点p的双亲结点为f，并假设结点p是结点f的左孩子。 时间复杂度O(logn)"
+      }
+    },
+    {
+      "id": "DS07030103",
+      "name": "二叉排序树的查找思想",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.9,
+        "description": "若二叉排树为空，则查找失败；否则，先拿根结点值与待查值进行比较，若相等，则查找成功，若根结点值大于待查值，则进入左子树重复此步骤，否则，进入右子树重复此步骤；若在查找过程中遇到二叉排序树的叶子结点时，还没有找到待找结点，则查找不成功。"
+      }
+    },
+    {
+      "id": "DS07030104",
+      "name": "二叉排序树的ADT定义",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.7,
+        "description": "可以用一个二叉链表来描述一棵二叉排序树：\nstruct node{\n    int key;          //代表关键字\n    …\n    struct  node *lch,*rch;        //代表左、右孩子\n};"
+      }
+    },
+    {
+      "id": "DS07030105",
+      "name": "二叉排序树的算法实现",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "NODE  * search(int k, NODE *root) \n   //在以root为根的二叉排序树中查找关键值为x的结点\n{   p=root;\n    while(p!= =NULL){\n        if  (p->key= =k) return(p);          //查找成功\n        else if (p->key>k)  p=p->lch ;     //进入左子树查找\n        else p=p->rch ;                            //进入右子树查找\n    }\n    return (NULL);\n}"
+      }
+    },
+    {
+      "id": "DS07030106",
+      "name": "二叉排序树的性能分析",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "在二叉排序树查找中，成功的查找次数不会超过二叉树的深度，而具有n个结点的二叉排序树的深度，最好为log2n，最坏为n。\n时间复杂度最好情况：O(log2n)；最坏情况：O(n)\n一般情形下，其时间复杂度大致可看成O(log2n)，比顺序查找效率要好，但比二分查找要差。"
+      }
+    },
+    {
+      "id": "DS070302",
+      "name": "平衡二叉树",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.9,
+        "description": "若一棵二叉树中每个结点的左、右子树的深度之差的绝对值不超过1，则称这样的二叉树为平衡二叉树（AVL树）。"
+      }
+    },
+    {
+      "id": "DS07030201",
+      "name": "平衡因子",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.9,
+        "description": "将结点的左子树深度减去右子树深度，得到的值为该结点的平衡因子。二叉排序树中，所有结点的平衡因子只为0、1、-1时，则该二叉排序树是一棵平衡二叉树。"
+      }
+    },
+    {
+      "id": "DS07030202",
+      "name": "非平衡二叉树的平衡处理",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.9,
+        "importance": 0.9,
+        "description": "处理与插入点最近的、而平衡因子又比1大或比-1小的结点。"
+      }
+    },
+    {
+      "id": "DS0704",
+      "name": "哈希查找",
+      "type": "一级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.9,
+        "description": "既是一种查找方法，又是一种存贮方法，称为散列存贮。散列存贮的内存存放形式也称为哈希表或散列表。"
+      }
+    },
+    {
+      "id": "DS070401",
+      "name": "散列查找的概念",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.9,
+        "description": "通过构造哈希函数来得到待查关键字的地址。如要找关键字为k的元素，只需求出哈希函数值H（k），H（k）为代表关键字k在存贮区中的地址，而存贮区为一块连续的内存单元，可用一个一维数组(或链表)来表示。"
+      }
+    },
+    {
+      "id": "DS070402",
+      "name": "哈希函数",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.9,
+        "description": "为了保证哈希表查找得以实现，必须使记录的存放规则和查找规则一致，即：使用同样的哈希函数。"
+      }
+    },
+    {
+      "id": "DS07040201",
+      "name": "哈希函数的存储过程",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "在存储时，以每个记录的关键字为自变量，通过哈希函数计算出存储地址，将该记录存放在存储地址对应的存储单元中。"
+      }
+    },
+    {
+      "id": "DS07040202",
+      "name": "哈希函数的查找过程",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "在查找时，以查找值为自变量，通过哈希函数计算出地址，从该地址所对应的存储单元中取出记录数据。"
+      }
+    },
+    {
+      "id": "DS070403",
+      "name": "冲突",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.9,
+        "description": "两个不同的关键字对应同一个内存地址，即两个记录的关键值不等，它们的哈希函数值相同。"
+      }
+    },
+    {
+      "id": "DS07040301",
+      "name": "装填因子α的概念",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.8,
+        "description": "指哈希表中己存入的元素个数n与哈希表的大小m的比值，即α=n/m。当α越小时，发生冲突的可能性越小，α越大（最大为1）时，发生冲突的可能性就越大。即使为了减少冲突的发生，也不能将α变得太小，因为这样将会造成大量存贮空间的浪费，因此必须兼顾存储空间和冲突两个方面。"
+      }
+    },
+    {
+      "id": "DS07040302",
+      "name": "哈希函数的构造方法",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS0704030201",
+      "name": "直接定址法",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.3,
+        "importance": 0.7,
+        "description": "可表示为H(k)=a.k+b，其中a、b均为常数。计算简单，并且不会发生冲突；当关键字分布不连续时，会出现很多空闲单元，将造成大量存贮单元的浪费。"
+      }
+    },
+    {
+      "id": "DS0704030202",
+      "name": "除留余数法",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.4,
+        "importance": 0.9,
+        "description": "该方法是用关键字序列中的关键字k除以一个整数p所得余数作为哈希函数的地址，即H(k)＝k％p。P<=m，m为哈希表长度。计算简单，是一种最常使用的方法。一般情形下，p 取素数较理想，并且要求装填因子α最好是在0.6∽0.9之间，所以p 最好取1.1n∽1.7n之间的一个素数较好，其中n为哈希表中待装元素个数。"
+      }
+    },
+    {
+      "id": "DS07040303",
+      "name": "冲突的解决方法",
+      "type": "三级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": ""
+      }
+    },
+    {
+      "id": "DS0704030301",
+      "name": "开放定址法",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "从发生冲突的那个单元开始，按照一定的次序，从哈希表中找出下一个空闲的存储单元，把发生冲突的待插入关键字存储到该单元中，从而解决冲突。"
+      }
+    },
+    {
+      "id": "DS070403030101",
+      "name": "开放定址法求空地址的方式",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.8,
+        "description": "开放定址法求“下一个”空地址的公式（探测序列）：Hi=(H(key)+di) MOD m，i=1,2,…K(K<=m-1)。其中H（key)为哈希函数，m为哈希表长度，di为增量序列。"
+      }
+    },
+    {
+      "id": "DS070403030102",
+      "name": "开放定址法的完备性要求",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.6,
+        "description": "增量序列中的各个值均不相同、由此得到的 m-1 个地址值必能覆盖哈希表中所有地址"
+      }
+    },
+    {
+      "id": "DS070403030103",
+      "name": "线性探测法",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "假设哈希表的地址为0∽m-1，则哈希表的长度为m。若一个关键字在地址d处发生冲突，则依次探查d+1，d+2，…，m-1(当达到表尾m-1时，又从0，1，2，….开始探查)等地址，直到找到一个空闲位置来装冲突处的关键字。假设发生冲突时的地址为d0=H(k)，则探查下一位置的公式为d1=(d0+1)%m， d2=(d1+1)%m … (1≤i≤m-1)，最后将冲突位置的关键字存入di地址中。\n完备性要求：自然满足"
+      }
+    },
+    {
+      "id": "DS070403030104",
+      "name": "平方探测法",
+      "type": "五级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.7,
+        "description": "若在d地址发生冲突，下一次探查位置为d+1*1，d-1*1，d+2*2，d- 2*2，…，直到找到一个空闲位置为止。\n完备性要求：只能在哈希表的表长 m 为形如 4j+3（j为整数）的素数（如：7,11,19,…等）时才能满足要求。"
+      }
+    },
+    {
+      "id": "DS0704030302",
+      "name": "开放定址法的ASL计算",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": "ASL = (成功查找次数 + 不成功查找次数) / 关键字总数\n分两种情况计算：\n成功查找 ASL（ASLsucc）：每个关键字的探测次数等于插入时找到空槽的步数\n例如：哈希表长度为7，插入序列为{3,5,8}，哈希函数为h(key)=key%7\n3%7=3 → 探测1次\n5%7=5 → 探测1次\n8%7=1 → 探测1次\nASLsucc = (1+1+1)/3 = 1.0\n\n不成功查找 ASL（ASLunsucc）：对所有可能哈希地址，计算从该地址出发找到空槽的探测次数\n例如：哈希表长度为7，已填充{3,5,8}，空槽为0,2,4,6\n哈希地址0: 探测1次（直接为空）\n地址1: 需要探测地址1→2（找到空槽），共2次\n地址3: 探测地址3（非空）→4（空），共2次\nASLunsucc = (1+2+1+2+1+2+1)/7 ≈ 1.43"
+      }
+    },
+    {
+      "id": "DS0704030303",
+      "name": "链地址法",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.9,
+        "description": "链地址法也称拉链法，把相互发生冲突的同义词用一个单链表链接起来，若干组同义词可以组成若干个单链表。"
+      }
+    },
+    {
+      "id": "DS0704030304",
+      "name": "链地址法的ASL计算",
+      "type": "四级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": "ASL = (所有链表的查找次数之和) / 关键字总数\n分两种情况：\n成功查找 ASL（ASLsucc）：每个关键字的查找次数 = 所在链表的序号\n例如：哈希表长度为5，关键字{3,8,13}，哈希函数h(key)=key%5\n链0: 无\n链1: 3→8→13（假设插入顺序为3,8,13）\n查找3: 1次\n查找8: 2次\n查找13: 3次\nASLsucc = (1+2+3)/3 = 2.0\n\n不成功查找 ASL（ASLunsucc）：对所有哈希地址，计算每个空链或非空链的遍历次数\n上例中：\n链0: 0次（空链）\n链1: 遍历3次（3→8→13后确认不存在）\nASLunsucc = (0+3)/2 = 1.5\n\n公式推导\nASLsucc ≈ 1 + α/2（α为装填因子，α = n/m，n为关键字数，m为表长）\nASLunsucc ≈ α + e^(-α)"
+      }
+    },
+    {
+      "id": "DS070404",
+      "name": "哈希查找的过程",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.9,
+        "description": "哈希查找过程与哈希表的创建过程是一致的。 查关键字为K的元素时， 首先计算p0=hash（K）。如单元p0为空， 所查元素不存在； 如p0中元素的关键字为K，则找到所查元素；否则重复： 按解决冲突的方法，找出下一个哈希地址pi， 如果单元pi为空，则所查元素不存在；如果单元pi中元素的关键字为K，则找到所查元素。 "
+      }
+    },
+    {
+      "id": "DS070405",
+      "name": "哈希查找的ADT定义",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.5,
+        "importance": 0.8,
+        "description": "＃define m <哈希表长度> \n＃define NULLKEY <代表空记录的关键字值> \ntypedef int KeyType;  \ntypedef struct { \n    KeyType key;  \n    …  \n} RecordType;\ntypedef RecordType HashTable[m];"
+      }
+    },
+    {
+      "id": "DS070406",
+      "name": "哈希查找的算法实现",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.6,
+        "importance": 0.8,
+        "description": "int HashSearch(HashTable ht, KeyType K){\n    p0=hash(K);\n    if (ht[p0].key==NULLKEY)  return (-1);\n    else  if  (ht[p0].key==K)  return (p0);\n    else{    //用线性探测再散列解决冲突\n        for (i=1;  i<=m-1;   i++){\n            pi=(p0+i) % m;\n            if (ht[pi].key==NULLKEY)  return (-1);\n            else if  (ht［pi］.key==K)  return (pi);\n        }\n        return (-1);\n    }\n}"
+      }
+    },
+    {
+      "id": "DS070407",
+      "name": "哈希查找的性能分析",
+      "type": "二级知识点",
+      "properties": {
+        "difficulty": 0.7,
+        "importance": 0.9,
+        "description": "由于冲突的存在，哈希法仍需进行关键字比较，用平均查找长度来评价哈希查找的性能。规律：哈希表的平均查找长度是装填因子α的函数，而与待散列元素数目n无关。因此， 无论元素数目n有多大，都能通过调整α，使哈希表的平均查找长度较小。 "
+      }
+    },
+    {
+      "id": "AB",
+      "name": "能力",
+      "type": "章节",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": ""
+      }
+    },
+    {
+      "id": "AB01",
+      "name": "能力的应用场景",
+      "type": "一级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": ""
+      }
+    },
+    {
+      "id": "AB0101",
+      "name": "编程场景",
+      "type": "二级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够编写清晰、高效的代码，实现数据结构和算法。"
+      }
+    },
+    {
+      "id": "AB010101",
+      "name": "代码实现能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够编写清晰、高效的代码，实现数据结构和算法。"
+      }
+    },
+    {
+      "id": "AB010102",
+      "name": "语言基础能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "熟悉编程语言的语法、数据类型、运算符等。"
+      }
+    },
+    {
+      "id": "AB010103",
+      "name": "代码优化",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够对代码进行优化，提高代码的可读性和执行效率。"
+      }
+    },
+    {
+      "id": "AB010104",
+      "name": "调试能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够使用调试工具定位和修复代码中的错误。"
+      }
+    },
+    {
+      "id": "AB010105",
+      "name": "错误定位",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够通过调试工具和日志信息，快速定位代码中的错误。"
+      }
+    },
+    {
+      "id": "AB010106",
+      "name": "错误修复",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够理解错误的原因，并采取有效的措施进行修复。"
+      }
+    },
+    {
+      "id": "AB010107",
+      "name": "测试能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够设计测试用例，验证代码的正确性和鲁棒性。"
+      }
+    },
+    {
+      "id": "AB010108",
+      "name": "测试用例设计",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够根据需求和功能，设计全面的测试用例。"
+      }
+    },
+    {
+      "id": "AB010109",
+      "name": "测试执行",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够使用测试工具执行测试用例，并记录测试结果。"
+      }
+    },
+    {
+      "id": "AB0102",
+      "name": "系统设计场景",
+      "type": "二级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够设计系统的整体架构，包括数据存储、模块划分等。"
+      }
+    },
+    {
+      "id": "AB010201",
+      "name": "架构设计能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够设计系统的整体架构，包括数据存储、模块划分等。"
+      }
+    },
+    {
+      "id": "AB010202",
+      "name": "数据存储设计",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够选择合适的数据存储方式，如数据库、文件系统等。"
+      }
+    },
+    {
+      "id": "AB010203",
+      "name": "模块划分",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够将系统划分为多个模块，明确各模块的职责和接口。"
+      }
+    },
+    {
+      "id": "AB010204",
+      "name": "性能优化能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够对系统进行性能优化，提高系统的响应速度和吞吐量。"
+      }
+    },
+    {
+      "id": "AB010205",
+      "name": "瓶颈分析",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够分析系统性能的瓶颈，如数据库查询、网络传输等。"
+      }
+    },
+    {
+      "id": "AB010206",
+      "name": "优化措施",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够采取有效的措施进行优化，如索引优化、缓存技术等。"
+      }
+    },
+    {
+      "id": "AB010207",
+      "name": "安全性设计能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够在设计中考虑系统的安全性，保护数据和用户隐私。"
+      }
+    },
+    {
+      "id": "AB010208",
+      "name": "安全机制设计",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够设计安全机制，如用户认证、数据加密等。"
+      }
+    },
+    {
+      "id": "AB010209",
+      "name": "安全漏洞防范",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够防范常见的安全漏洞，如SQL注入、跨站脚本攻击等。"
+      }
+    },
+    {
+      "id": "AB0103",
+      "name": "团队协作场景",
+      "type": "二级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够与团队成员进行有效的沟通，明确各自的任务和职责。"
+      }
+    },
+    {
+      "id": "AB010301",
+      "name": "沟通能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够与团队成员进行有效的沟通，明确各自的任务和职责。"
+      }
+    },
+    {
+      "id": "AB010302",
+      "name": "需求沟通",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够与产品经理、设计师等进行需求沟通，明确项目的目标和需求。"
+      }
+    },
+    {
+      "id": "AB010303",
+      "name": "技术沟通",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够与开发人员、测试人员等进行技术沟通，解决技术问题。"
+      }
+    },
+    {
+      "id": "AB010304",
+      "name": "协同开发能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够使用版本控制工具进行协同开发，解决代码冲突等问题。"
+      }
+    },
+    {
+      "id": "AB010305",
+      "name": "版本控制",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够熟练使用版本控制工具，如Git、SVN等。"
+      }
+    },
+    {
+      "id": "AB010306",
+      "name": "分支管理",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够合理管理分支，避免代码冲突和混乱。"
+      }
+    },
+    {
+      "id": "AB010307",
+      "name": "项目管理能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够参与项目的计划和管理，确保项目按时交付。"
+      }
+    },
+    {
+      "id": "AB010308",
+      "name": "任务分配",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够合理分配任务，确保团队成员的工作负荷均衡。"
+      }
+    },
+    {
+      "id": "AB010309",
+      "name": "进度跟踪",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够跟踪项目进度，及时调整计划，确保项目按时完成。"
+      }
+    },
+    {
+      "id": "AB02",
+      "name": "能力的来源",
+      "type": "一级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够学习和理解数据结构和算法的理论知识。"
+      }
+    },
+    {
+      "id": "AB0201",
+      "name": "知识学习能力",
+      "type": "二级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够学习和理解数据结构和算法的理论知识。"
+      }
+    },
+    {
+      "id": "AB020101",
+      "name": "理论学习能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够学习和理解数据结构和算法的理论知识。"
+      }
+    },
+    {
+      "id": "AB020102",
+      "name": "概念理解",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够理解数据结构的基本概念，如逻辑结构、存储结构等。"
+      }
+    },
+    {
+      "id": "AB020103",
+      "name": "算法分析",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够分析算法的时间复杂度和空间复杂度。"
+      }
+    },
+    {
+      "id": "AB020104",
+      "name": "文献阅读能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够阅读和理解相关的学术文献和技术资料。"
+      }
+    },
+    {
+      "id": "AB020105",
+      "name": "文献检索",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够使用学术数据库和搜索引擎，查找相关的文献和资料。"
+      }
+    },
+    {
+      "id": "AB020106",
+      "name": "文献理解",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够理解文献中的技术细节和研究方法。"
+      }
+    },
+    {
+      "id": "AB020107",
+      "name": "知识更新能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够不断学习新的知识和技术，保持知识的更新。"
+      }
+    },
+    {
+      "id": "AB020108",
+      "name": "在线学习",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够利用在线课程和教程，学习新的数据结构和算法。"
+      }
+    },
+    {
+      "id": "AB020109",
+      "name": "社区参与",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够参与技术社区和论坛，交流学习经验和解决问题。"
+      }
+    },
+    {
+      "id": "AB0202",
+      "name": "实践操作能力",
+      "type": "二级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够进行数据结构和算法的实验，验证理论的正确性。"
+      }
+    },
+    {
+      "id": "AB020201",
+      "name": "实验能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够进行数据结构和算法的实验，验证理论的正确性。"
+      }
+    },
+    {
+      "id": "AB020202",
+      "name": "实验设计",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够设计实验方案，包括实验数据、实验步骤等。"
+      }
+    },
+    {
+      "id": "AB020203",
+      "name": "实验执行",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够按照实验方案进行实验，记录实验结果。"
+      }
+    },
+    {
+      "id": "AB020204",
+      "name": "项目实践能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够参与实际的项目开发，应用所学的知识和技能。"
+      }
+    },
+    {
+      "id": "AB020205",
+      "name": "项目需求分析",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够分析项目的需求，确定数据结构和算法的选择。"
+      }
+    },
+    {
+      "id": "AB020206",
+      "name": "项目开发",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够按照项目计划进行开发，实现项目功能。"
+      }
+    },
+    {
+      "id": "AB020207",
+      "name": "问题解决能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够在实践中遇到问题时，能够快速定位和解决问题。"
+      }
+    },
+    {
+      "id": "AB020208",
+      "name": "问题定位",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够通过日志和调试信息，快速定位问题的根源。"
+      }
+    },
+    {
+      "id": "AB020209",
+      "name": "解决方案设计",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够设计解决方案，解决问题并优化系统。"
+      }
+    },
+    {
+      "id": "AB0203",
+      "name": "综合应用能力",
+      "type": "二级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够将不同的模块和功能进行集成，形成完整的系统。"
+      }
+    },
+    {
+      "id": "AB020301",
+      "name": "系统集成能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够将不同的模块和功能进行集成，形成完整的系统。"
+      }
+    },
+    {
+      "id": "AB020302",
+      "name": "接口设计",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够设计模块之间的接口，确保模块之间的通信和协作。"
+      }
+    },
+    {
+      "id": "AB020303",
+      "name": "集成测试",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够进行集成测试，确保系统的稳定性和可靠性。"
+      }
+    },
+    {
+      "id": "AB020304",
+      "name": "创新应用能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够将数据结构和算法应用于新的领域，解决新的问题。"
+      }
+    },
+    {
+      "id": "AB020305",
+      "name": "新领域探索",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够探索新的应用领域，如人工智能、大数据处理等。"
+      }
+    },
+    {
+      "id": "AB020306",
+      "name": "创新设计",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够设计新的数据结构和算法，提升系统的性能和功能。"
+      }
+    },
+    {
+      "id": "AB020307",
+      "name": "跨学科应用能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够将数据结构和算法与其他学科的知识相结合，解决跨学科的问题。"
+      }
+    },
+    {
+      "id": "AB020308",
+      "name": "跨学科知识融合",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够将数据结构和算法与其他学科的知识相结合，如数学、物理等。"
+      }
+    },
+    {
+      "id": "AB020309",
+      "name": "跨学科项目实践",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够参与跨学科的项目实践，解决实际的跨学科问题。"
+      }
+    },
+    {
+      "id": "AB03",
+      "name": "能力的层次结构",
+      "type": "一级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够分析问题的需求和约束，设计解决方案。"
+      }
+    },
+    {
+      "id": "AB0301",
+      "name": "记忆层次",
+      "type": "二级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够记忆数据结构和算法的基本概念和原理。"
+      }
+    },
+    {
+      "id": "AB030101",
+      "name": "知识记忆能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够记忆数据结构和算法的基本概念和原理。"
+      }
+    },
+    {
+      "id": "AB030102",
+      "name": "概念记忆",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够记住数据结构的基本概念，如逻辑结构、存储结构等。"
+      }
+    },
+    {
+      "id": "AB030103",
+      "name": "算法记忆",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够记住常见算法的步骤和特点，如快速排序、归并排序等。"
+      }
+    },
+    {
+      "id": "AB0302",
+      "name": "理解层次",
+      "type": "二级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够理解数据结构和算法的基本概念和原理。"
+      }
+    },
+    {
+      "id": "AB030201",
+      "name": "概念理解能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够理解数据结构和算法的基本概念和原理。"
+      }
+    },
+    {
+      "id": "AB030202",
+      "name": "逻辑结构理解",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够理解数据结构的逻辑结构，如线性结构、树形结构等。"
+      }
+    },
+    {
+      "id": "AB030203",
+      "name": "算法分析理解",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够理解算法的时间复杂度和空间复杂度分析方法。"
+      }
+    },
+    {
+      "id": "AB0303",
+      "name": "应用层次",
+      "type": "二级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够将数据结构和算法的知识应用到实际问题中。"
+      }
+    },
+    {
+      "id": "AB030301",
+      "name": "知识应用能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够将数据结构和算法的知识应用到实际问题中。"
+      }
+    },
+    {
+      "id": "AB030302",
+      "name": "数据结构选择",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够根据问题的特点，选择合适的数据结构，如数组、链表等。"
+      }
+    },
+    {
+      "id": "AB030303",
+      "name": "算法实现",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够实现常见算法，如排序、查找等。"
+      }
+    },
+    {
+      "id": "AB0304",
+      "name": "分析层次",
+      "type": "二级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够分析问题的需求和约束，设计解决方案。"
+      }
+    },
+    {
+      "id": "AB030401",
+      "name": "问题分析能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够分析问题的需求和约束，设计解决方案。"
+      }
+    },
+    {
+      "id": "AB030402",
+      "name": "需求分析",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够分析用户的需求，确定系统的功能和性能要求。"
+      }
+    },
+    {
+      "id": "AB030403",
+      "name": "算法优化分析",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够分析算法的效率，提出优化方案。"
+      }
+    },
+    {
+      "id": "AB0305",
+      "name": "评价层次",
+      "type": "二级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够对不同的解决方案进行评价，选择最优方案。"
+      }
+    },
+    {
+      "id": "AB030501",
+      "name": "方案评价能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够对不同的解决方案进行评价，选择最优方案。"
+      }
+    },
+    {
+      "id": "AB030502",
+      "name": "性能评价",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够对系统的性能进行评价，如响应时间、吞吐量等。"
+      }
+    },
+    {
+      "id": "AB030503",
+      "name": "安全性评价",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够对系统的安全性进行评价，如数据加密、用户认证等。"
+      }
+    },
+    {
+      "id": "AB0306",
+      "name": "创造层次",
+      "type": "二级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够设计新的数据结构和算法，解决新的问题。"
+      }
+    },
+    {
+      "id": "AB030601",
+      "name": "创新设计能力",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够设计新的数据结构和算法，解决新的问题。"
+      }
+    },
+    {
+      "id": "AB030602",
+      "name": "新结构设计",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够设计新的数据结构，如跳表、布隆过滤器等。"
+      }
+    },
+    {
+      "id": "AB030603",
+      "name": "新算法设计",
+      "type": "三级能力节点",
+      "properties": {
+        "difficulty": 0,
+        "importance": 0,
+        "description": "能够设计新的算法，如分布式算法、量子算法等。"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "DS",
+      "target": "DS01",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS01",
+      "target": "DS0101",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS01",
+      "target": "DS0102",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS01",
+      "target": "DS0103",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS01",
+      "target": "DS0104",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0102",
+      "target": "DS010201",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0102",
+      "target": "DS010202",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0102",
+      "target": "DS010203",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0102",
+      "target": "DS010204",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0102",
+      "target": "DS010205",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0102",
+      "target": "DS010206",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0102",
+      "target": "DS010207",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0103",
+      "target": "DS010301",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0104",
+      "target": "DS010401",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0104",
+      "target": "DS010402",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0104",
+      "target": "DS010403",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0104",
+      "target": "DS010404",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS",
+      "target": "DS02",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS02",
+      "target": "DS0201",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS02",
+      "target": "DS0202",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS02",
+      "target": "DS0203",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0203",
+      "target": "DS020301",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0203",
+      "target": "DS020302",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS02",
+      "target": "DS0204",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0204",
+      "target": "DS020401",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0204",
+      "target": "DS020402",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0204",
+      "target": "DS020403",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS02",
+      "target": "DS0205",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0205",
+      "target": "DS020501",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0205",
+      "target": "DS020502",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS02",
+      "target": "DS0206",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0206",
+      "target": "DS020601",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0206",
+      "target": "DS020602",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS02",
+      "target": "DS0207",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0207",
+      "target": "DS020701",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0207",
+      "target": "DS020702",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0207",
+      "target": "DS020703",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0207",
+      "target": "DS020704",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS02",
+      "target": "DS0208",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0208",
+      "target": "DS020801",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0208",
+      "target": "DS020802",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS02",
+      "target": "DS0209",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0209",
+      "target": "DS020901",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0209",
+      "target": "DS020902",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS02",
+      "target": "DS0210",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0210",
+      "target": "DS021001",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0210",
+      "target": "DS021002",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0210",
+      "target": "DS021003",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS02",
+      "target": "DS0211",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0211",
+      "target": "DS021101",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0211",
+      "target": "DS021102",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS",
+      "target": "DS03",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS03",
+      "target": "DS0301",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS03",
+      "target": "DS0302",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0301",
+      "target": "DS030101",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0301",
+      "target": "DS030102",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0301",
+      "target": "DS030103",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0301",
+      "target": "DS030104",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0302",
+      "target": "DS030201",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0302",
+      "target": "DS030202",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0302",
+      "target": "DS030203",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0302",
+      "target": "DS030204",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS",
+      "target": "DS04",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS04",
+      "target": "DS0401",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS04",
+      "target": "DS0402",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS04",
+      "target": "DS0403",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS04",
+      "target": "DS0404",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0401",
+      "target": "DS040101",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0401",
+      "target": "DS040102",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0401",
+      "target": "DS040103",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0402",
+      "target": "DS040201",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0402",
+      "target": "DS040202",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0402",
+      "target": "DS040203",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0402",
+      "target": "DS040204",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0402",
+      "target": "DS040205",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0403",
+      "target": "DS040301",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0403",
+      "target": "DS040302",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0403",
+      "target": "DS040303",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0404",
+      "target": "DS040401",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0404",
+      "target": "DS040402",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS",
+      "target": "DS05",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0501",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0502",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0503",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0503",
+      "target": "DS050301",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0503",
+      "target": "DS050302",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0503",
+      "target": "DS050303",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0503",
+      "target": "DS050304",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0504",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0504",
+      "target": "DS050401",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0504",
+      "target": "DS050402",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0505",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0505",
+      "target": "DS050501",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0505",
+      "target": "DS050502",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0506",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0506",
+      "target": "DS050601",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0506",
+      "target": "DS050602",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0507",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0507",
+      "target": "DS050701",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0507",
+      "target": "DS050702",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0508",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0508",
+      "target": "DS050801",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0509",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0509",
+      "target": "DS050901",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0509",
+      "target": "DS050902",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0509",
+      "target": "DS050903",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0510",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0510",
+      "target": "DS051001",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0510",
+      "target": "DS051002",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0510",
+      "target": "DS051003",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0510",
+      "target": "DS051004",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0511",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0511",
+      "target": "DS051101",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0511",
+      "target": "DS051102",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0512",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0512",
+      "target": "DS051201",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0512",
+      "target": "DS051202",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0513",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0513",
+      "target": "DS051301",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0513",
+      "target": "DS051302",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0514",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0514",
+      "target": "DS051401",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0514",
+      "target": "DS051402",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0515",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0515",
+      "target": "DS051501",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0515",
+      "target": "DS051502",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS05",
+      "target": "DS0516",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0516",
+      "target": "DS051601",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0516",
+      "target": "DS051602",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0516",
+      "target": "DS051603",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS",
+      "target": "DS06",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS06",
+      "target": "DS0601",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS06",
+      "target": "DS0602",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0601",
+      "target": "DS060101",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0601",
+      "target": "DS060102",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0601",
+      "target": "DS060103",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0601",
+      "target": "DS060104",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0601",
+      "target": "DS060105",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0602",
+      "target": "DS060201",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0602",
+      "target": "DS060202",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0602",
+      "target": "DS060203",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS",
+      "target": "DS07",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS07",
+      "target": "DS0701",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0701",
+      "target": "DS070101",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0701",
+      "target": "DS070102",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0701",
+      "target": "DS070103",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0701",
+      "target": "DS070104",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0701",
+      "target": "DS070105",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0701",
+      "target": "DS070106",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS07",
+      "target": "DS0702",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0702",
+      "target": "DS070201",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0702",
+      "target": "DS070202",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0702",
+      "target": "DS070203",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS07",
+      "target": "DS0703",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0703",
+      "target": "DS070301",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0703",
+      "target": "DS070302",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS07",
+      "target": "DS0704",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0704",
+      "target": "DS070401",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0704",
+      "target": "DS070402",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0704",
+      "target": "DS070403",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0704",
+      "target": "DS070404",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0704",
+      "target": "DS070405",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0704",
+      "target": "DS070406",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "DS0704",
+      "target": "DS070407",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB",
+      "target": "AB01",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB01",
+      "target": "AB0101",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0101",
+      "target": "AB010101",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0101",
+      "target": "AB010102",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0101",
+      "target": "AB010103",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0101",
+      "target": "AB010104",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0101",
+      "target": "AB010105",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0101",
+      "target": "AB010106",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0101",
+      "target": "AB010107",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0101",
+      "target": "AB010108",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0101",
+      "target": "AB010109",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB01",
+      "target": "AB0102",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0102",
+      "target": "AB010201",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0102",
+      "target": "AB010202",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0102",
+      "target": "AB010203",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0102",
+      "target": "AB010204",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0102",
+      "target": "AB010205",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0102",
+      "target": "AB010206",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0102",
+      "target": "AB010207",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0102",
+      "target": "AB010208",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0102",
+      "target": "AB010209",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB01",
+      "target": "AB0103",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0103",
+      "target": "AB010301",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0103",
+      "target": "AB010302",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0103",
+      "target": "AB010303",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0103",
+      "target": "AB010304",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0103",
+      "target": "AB010305",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0103",
+      "target": "AB010306",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0103",
+      "target": "AB010307",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0103",
+      "target": "AB010308",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0103",
+      "target": "AB010309",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB",
+      "target": "AB02",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB02",
+      "target": "AB0201",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0201",
+      "target": "AB020101",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0201",
+      "target": "AB020102",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0201",
+      "target": "AB020103",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0201",
+      "target": "AB020104",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0201",
+      "target": "AB020105",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0201",
+      "target": "AB020106",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0201",
+      "target": "AB020107",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0201",
+      "target": "AB020108",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0201",
+      "target": "AB020109",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB02",
+      "target": "AB0202",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0202",
+      "target": "AB020201",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0202",
+      "target": "AB020202",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0202",
+      "target": "AB020203",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0202",
+      "target": "AB020204",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0202",
+      "target": "AB020205",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0202",
+      "target": "AB020206",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0202",
+      "target": "AB020207",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0202",
+      "target": "AB020208",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0202",
+      "target": "AB020209",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB02",
+      "target": "AB0203",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0203",
+      "target": "AB020301",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0203",
+      "target": "AB020302",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0203",
+      "target": "AB020303",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0203",
+      "target": "AB020304",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0203",
+      "target": "AB020305",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0203",
+      "target": "AB020306",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0203",
+      "target": "AB020307",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0203",
+      "target": "AB020308",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0203",
+      "target": "AB020309",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB",
+      "target": "AB03",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB03",
+      "target": "AB0301",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0301",
+      "target": "AB030101",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0301",
+      "target": "AB030102",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0301",
+      "target": "AB030103",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB03",
+      "target": "AB0302",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0302",
+      "target": "AB030201",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0302",
+      "target": "AB030202",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0302",
+      "target": "AB030203",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB03",
+      "target": "AB0303",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0303",
+      "target": "AB030301",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0303",
+      "target": "AB030302",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0303",
+      "target": "AB030303",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB03",
+      "target": "AB0304",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0304",
+      "target": "AB030401",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0304",
+      "target": "AB030402",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0304",
+      "target": "AB030403",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB03",
+      "target": "AB0305",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0305",
+      "target": "AB030501",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0305",
+      "target": "AB030502",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0305",
+      "target": "AB030503",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB03",
+      "target": "AB0306",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0306",
+      "target": "AB030601",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0306",
+      "target": "AB030602",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    },
+    {
+      "source": "AB0306",
+      "target": "AB030603",
+      "type": "parent-child",
+      "properties": {
+        "relationship": "contains"
+      }
+    }
+  ],
+  "metadata": {
+    "totalNodes": 415,
+    "totalEdges": 251,
+    "description": "知识图谱数据，包含知识点和能力点的节点及其关系",
+    "exportDate": "2025-03-27T06:56:35.766Z"
+  }
+}

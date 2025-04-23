@@ -1,0 +1,208 @@
+/* 3D提示框动画 */
+@keyframes tooltip-fade-in {
+  from { 
+    opacity: 0; 
+    transform: translateY(10px) scale(0.95); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0) scale(1); 
+  }
+}
+
+/* 提示框容器 */
+.tooltip-container {
+  position: relative;
+}
+
+/* 全局提示框样式 - 调整为匹配2D视图 */
+.drei-tooltip {
+  position: relative;
+  background: rgba(31, 35, 53, 0.98);  /* 深蓝色背景，更不透明 */
+  color: #fff;
+  padding: 14px;  /* 调整内边距 */
+  border-radius: 6px;  /* 减小圆角 */
+  font-size: 12px;  /* 调整基础字体 */
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  animation: tooltip-fade-in 0.2s ease-out;
+}
+
+/* 添加左侧箭头 */
+.drei-tooltip:before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 8px 8px 8px 0;  /* 调整箭头大小 */
+  border-style: solid;
+  border-color: transparent rgba(31, 35, 53, 0.98) transparent transparent;
+}
+
+.drei-tooltip-header {
+  font-size: 14px;  /* 调整标题大小 */
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.drei-tooltip-dot {
+  display: inline-block;
+  width: 6px;  /* 减小点大小 */
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.drei-tooltip-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;  /* 减小间距 */
+}
+
+.drei-tooltip-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Arial, sans-serif';
+  padding: 1px 0;
+}
+
+.drei-tooltip-label {
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 8px;
+  font-size: 11px;  /* 调整标签大小 */
+}
+
+.drei-tooltip-value {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;  /* 调整值大小 */
+}
+
+.drei-tooltip-description {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* 增加描述文本的可读性 */
+.drei-tooltip-description .drei-tooltip-value {
+  line-height: 1.3;
+  font-size: 12px;
+}
+
+/* 添加3D提示框包装样式 */
+.tooltip-wrapper {
+  pointer-events: none;
+  transition: all 0.2s;
+  transform-style: preserve-3d !important;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.tooltip-container {
+  transition: opacity 0.3s;
+}
+
+.drei-tooltip {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+/* 添加静态提示框样式，移除所有动画和过渡效果 */
+.tooltip-container-static {
+  pointer-events: none;
+  position: fixed !important; /* 使用fixed定位确保不随视图缩放变化 */
+  transform-origin: left top !important; /* 固定变换原点 */
+  width: auto !important;
+  height: auto !important;
+  z-index: 10000 !important; /* 确保在最上层 */
+}
+
+.drei-tooltip-static {
+  max-width: 400px;
+  min-width: 300px;
+  overflow: hidden;
+  white-space: normal;
+  word-wrap: break-word;
+  background: rgba(0, 0, 0, 0.95);
+  transform: none !important; /* 禁止任何变换 */
+  transition: none !important; /* 禁止任何过渡效果 */
+  font-size: 16px !important; /* 确保字体大小固定 */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0;
+}
+
+/* 调整标题和内容样式保持一致 */
+.drei-tooltip-static .drei-tooltip-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.drei-tooltip-static .drei-tooltip-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.drei-tooltip-static .drei-tooltip-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.drei-tooltip-static .drei-tooltip-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 0;
+}
+
+.drei-tooltip-static .drei-tooltip-label {
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 15px;
+  font-size: 0.9em;
+  min-width: 80px;
+  text-align: left;
+}
+
+.drei-tooltip-static .drei-tooltip-value {
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9em;
+  text-align: right;
+  flex: 1;
+}
+
+.drei-tooltip-static .drei-tooltip-description {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.drei-tooltip-static .drei-tooltip-description .drei-tooltip-value {
+  text-align: left;
+  line-height: 1.4;
+  margin-top: 6px;
+  white-space: pre-wrap;
+  font-size: 0.9em;
+} 
