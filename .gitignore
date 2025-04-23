@@ -24,13 +24,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # IDE
-.idea/
-.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+/.idea
+/.vscode
+*.swp
+*.swo
 
 # Environment variables
 .env
